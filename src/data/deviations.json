@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "deviations": [
+    {
+      "category": "animals",
+      "trait": "Top Grunt",
+      "animal": "Buffalo",
+      "item": null,
+      "icon": "animal_buffalo.webp",
+      "combatEffect": "After syncing, no Stamina is consumed during gathering activities like chopping trees or mining.",
+      "craftingEffect": "When Deviant Energy drops to 10%, automatically converts Mood into Deviant Energy to continue working."
+    },
+    {
+      "category": "animals",
+      "trait": "Herbivore",
+      "animal": "Deer",
+      "item": null,
+      "icon": "animal_deer.webp",
+      "combatEffect": "After syncing, nearby herbivores will no longer flee from the player.",
+      "craftingEffect": "During production, they have a chance to yield an additional deviated plant."
+    },
+    {
+      "category": "animals",
+      "trait": "Herbivore",
+      "animal": "Goat",
+      "item": null,
+      "icon": "animal_goat.webp",
+      "combatEffect": "After syncing, nearby herbivores will no longer flee from the player.",
+      "craftingEffect": "During production, they have a chance to yield an additional deviated plant."
+    },
+    {
+      "category": "animals",
+      "trait": "Foul Symbiosis",
+      "animal": "Boar",
+      "item": null,
+      "icon": "animal_boar.webp",
+      "combatEffect": "When they help kill Deviants, loot has a 10% chance to grant +1 Acid.",
+      "craftingEffect": "When producing in a Pollution Zone, they have a 10% chance to yield 1 extra Acid."
+    },
+    {
+      "category": "animals",
+      "trait": "Brute Force Rules",
+      "animal": "Bear",
+      "item": null,
+      "icon": "animal_bear.webp",
+      "combatEffect": "After syncing, your dodging or mid-air dashing under the Aero Leap whim will shatter any ores or trees you touch, but you won't get resources from them.",
+      "craftingEffect": "During production, they have a 10% chance to double resource output."
+    },
+    {
+      "category": "animals",
+      "trait": "Polar Beast",
+      "animal": "Polar Bear",
+      "item": null,
+      "icon": "animal_polar_bear.webp",
+      "combatEffect": "When the environmental temperature is below 0°C, their Attack increases by 10%.",
+      "craftingEffect": "When the environmental temperature in the territory is below 0°C, Mood recovers 10% faster."
+    },
+    {
+      "category": "animals",
+      "trait": "Moonlight Assault",
+      "animal": "Wolf",
+      "item": null,
+      "icon": "animal_wolf.webp",
+      "combatEffect": "At night, Deviant Energy and Mood Recovery rates are increased.",
+      "craftingEffect": "At night, Deviant Energy and Mood Recovery rates are increased by 15%."
+    },
+    {
+      "category": "animals",
+      "trait": "Nightmare Waters",
+      "animal": "Crocodile",
+      "item": null,
+      "icon": "animal_crocodile.webp",
+      "combatEffect": "After syncing, Stamina consumption is significantly reduced while diving, and Oxygen is greatly increased.",
+      "craftingEffect": "When the territory is near water, Deviations have a chance to yield extra fish during production."
+    },
+    {
+      "category": "animals",
+      "trait": "Mind Massage",
+      "animal": "Capybara",
+      "item": null,
+      "icon": "animal_capybara.webp",
+      "combatEffect": "After syncing, Sanity will gradually recover.",
+      "craftingEffect": "Players will recover 10% Sanity when returning to their territory (10m Cooldown)."
+    },
+    {
+      "category": "animals",
+      "trait": "Feline Creatures",
+      "animal": "Leopard",
+      "item": null,
+      "icon": "animal_leopard.webp",
+      "combatEffect": "After syncing, fall damage is reduced by 50%, and fractures are prevented.",
+      "craftingEffect": "When the Extradimensional Cat in the territory is active, this Deviation might yield an extra Lightweight item during production."
+    },
+    {
+      "category": "furniture",
+      "trait": "Pollution Adaptation",
+      "animal": null,
+      "item": "Modern Toilet",
+      "icon": "furniture_toilet.webp",
+      "combatEffect": "After syncing, the player's Pollution Resistance Increased by 20",
+      "craftingEffect": "Max Deviant Energy increases by 15 within Pollution zones."
+    },
+    {
+      "category": "furniture",
+      "trait": "Precision Moment",
+      "animal": null,
+      "item": "Desktop Electronic Clock",
+      "icon": "furniture_clock.webp",
+      "combatEffect": "Increases Mood by 10 and Deviant Energy by 10 for all Deviations in the territory every hour (effect does not stack).",
+      "craftingEffect": "Increases Mood by 10 and Deviant Energy by 10 for all Deviations in the territory every hour (effect does not stack)."
+    },
+    {
+      "category": "furniture",
+      "trait": "Master of Temperatures",
+      "animal": null,
+      "item": "Any Fan",
+      "icon": "furniture_fan.webp",
+      "craftingEffect": "Players gain 10 Heat Resist within their territory.",
+      "combatEffect": "After syncing, the player's Heat Resist increases by 10."
+    },
+    {
+      "category": "furniture",
+      "trait": "Knights of The Round Table",
+      "animal": null,
+      "item": "Any Table",
+      "icon": "furniture_table.webp",
+      "combatEffect": "Slightly reduces damage taken by this Deviation.",
+      "craftingEffect": "Their Defense increases by 5% and Deviant Energy consumption is reduced when hit."
+    },
+    {
+      "category": "furniture",
+      "trait": "Warm Flame",
+      "animal": null,
+      "item": "Candelabra",
+      "icon": "furniture_candelabra.webp",
+      "combatEffect": "After syncing, the Player's Cold Resist increases by 10.",
+      "craftingEffect": "Players gain 10 Cold Resist when within their territory."
+    },
+    {
+      "category": "furniture",
+      "trait": "Eureka Moment",
+      "animal": null,
+      "item": "Small Signal Light",
+      "icon": "furniture_signal_light.webp",
+      "combatEffect": "After syncing, if you're attacked, the attacker is revealed and their Weapon DMG is reduced by 10% for 2s. (60s cooldown).",
+      "craftingEffect": "Will not require light built above it for the deviation's securement box."
+    },
+    {
+      "category": "furniture",
+      "trait": "Extra Load",
+      "animal": null,
+      "item": "Any Carton",
+      "icon": "furniture_carton.webp",
+      "combatEffect": "After syncing, Maximum Load is increased by 20.",
+      "craftingEffect": "Increases storage capacity for Crafting Deviations by 15%."
+    },
+    {
+      "category": "furniture",
+      "trait": "Music Resonance",
+      "animal": null,
+      "item": "Jukebox",
+      "icon": "furniture_jukebox.webp",
+      "combatEffect": "Will not require radio for the deviation's securement box.",
+      "craftingEffect": "Will not require radio for the deviation's securement box."
+    },
+    {
+      "category": "furniture",
+      "trait": "Clean and Hygienic",
+      "animal": null,
+      "item": "Sink",
+      "icon": "furniture_sink.webp",
+      "combatEffect": "After syncing, the player's Sanity will automatically recover to 20% when it drops below that threshold.",
+      "craftingEffect": "Players Sanity will not drop below 20% when within their territory."
+    },
+    {
+      "category": "furniture",
+      "trait": "Neon Flicker",
+      "animal": null,
+      "item": "\"Like\"",
+      "icon": "furniture_like.webp",
+      "combatEffect": "For every Deviation with the Neon Flicker trait in the territory, the max Mood all Deviations increases by 1.",
+      "craftingEffect": "For every Deviation with the Neon Flicker trait in the territory, the max Mood all Deviations increases by 1."
+    }
+  ]
+}

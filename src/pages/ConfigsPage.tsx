@@ -18,12 +18,19 @@ import { memetics, tierLabels } from '../data/memetics'
 import { scenarioOptions } from '../data/scenarios'
 import type { Config, Memetic, TierGroup } from '../types'
 import { createConfig, createTechList, loadConfigs, saveConfigs } from '../storage/configStore'
+import { normalizeScenario } from '../utils/scenarioAliases'
+import { PageLayout } from '../components/PageLayout'
 
-const { Title, Paragraph, Text } = Typography
+const { Title, Text } = Typography
 
 const MAX_LISTS_PER_CONFIG = 10
 
 const tierOrder: TierGroup[] = ['tier1', 'tier2', 'tier3']
+const levelSlots: Record<TierGroup, number[]> = {
+  tier1: [5, 10, 15],
+  tier2: [20, 25, 30, 35],
+  tier3: [40, 45, 50],
+}
 
 export const ConfigsPage = () => {
   const [configs, setConfigs] = useState<Config[]>(loadConfigs())
@@ -38,6 +45,12 @@ export const ConfigsPage = () => {
     name: string
   } | null>(null)
   const [renameCharacterValue, setRenameCharacterValue] = useState('')
+  const [editSlot, setEditSlot] = useState<{
+    listId: string
+    tier: TierGroup
+    level: number
+  } | null>(null)
+  const [editPerkId, setEditPerkId] = useState<string | null>(null)
 
   const config = configs.find((item) => item.id === activeConfigId) ?? null
 
@@ -46,20 +59,10 @@ export const ConfigsPage = () => {
     [],
   )
 
-  const winterAliases = useMemo(
-    () =>
-      new Set([
-        'Way of Winter',
-        'Endless Dream',
-        'Deviation: Survive, Capture, Preserve',
-      ]),
-    [],
+  const effectiveScenario = useMemo(
+    () => normalizeScenario(config?.scenario ?? null),
+    [config?.scenario],
   )
-
-  const effectiveScenario = useMemo(() => {
-    const selectedScenario = config?.scenario ?? null
-    return winterAliases.has(selectedScenario ?? '') ? 'Way of Winter' : selectedScenario
-  }, [config?.scenario, winterAliases])
 
   const isPerkAllowed = (perk: Memetic | null) => {
     if (!perk) return true
@@ -68,8 +71,6 @@ export const ConfigsPage = () => {
   }
 
   const tierOptions = useMemo(() => {
-    const selectedScenario = effectiveScenario
-
     const scenarioFiltered = effectiveScenario
       ? memetics.filter((item) => item.scenarios?.includes(effectiveScenario))
       : memetics
@@ -100,12 +101,6 @@ export const ConfigsPage = () => {
     )
   }, [effectiveScenario])
 
-  const levelSlots: Record<TierGroup, number[]> = {
-    tier1: [5, 10, 15],
-    tier2: [20, 25, 30, 35],
-    tier3: [40, 45, 50],
-  }
-
   const listSelectedPerks = useMemo(() => {
     if (!config) return new Map<string, Set<string>>()
     const map = new Map<string, Set<string>>()
@@ -122,7 +117,7 @@ export const ConfigsPage = () => {
       map.set(list.id, picked)
     })
     return map
-  }, [config, levelSlots, tierOrder])
+  }, [config])
 
   const duplicatePerks = useMemo(() => {
     if (!config) return new Set<string>()
@@ -144,7 +139,7 @@ export const ConfigsPage = () => {
       }
     })
     return duplicates
-  }, [config, levelSlots, tierOrder])
+  }, [config])
 
   const getOptionsForSlot = (
     currentId: string | null,
@@ -254,6 +249,27 @@ export const ConfigsPage = () => {
     closeRenameCharacterModal()
   }
 
+  const openEditSlot = (
+    listId: string,
+    tier: TierGroup,
+    level: number,
+    perkId: string | null,
+  ) => {
+    setEditSlot({ listId, tier, level })
+    setEditPerkId(perkId)
+  }
+
+  const closeEditSlot = () => {
+    setEditSlot(null)
+    setEditPerkId(null)
+  }
+
+  const submitEditSlot = () => {
+    if (!editSlot) return
+    handleSetPerk(editSlot.listId, editSlot.tier, editSlot.level, editPerkId)
+    closeEditSlot()
+  }
+
   const handleAddList = () => {
     if (!config) return
     if (config.lists.length >= MAX_LISTS_PER_CONFIG) return
@@ -318,7 +334,7 @@ export const ConfigsPage = () => {
     <Space direction="vertical" size={4} className="perk-tooltip">
       <Text strong>{perk.name}</Text>
       {perk.effectTitle && <Text>{perk.effectTitle}</Text>}
-      {perk.description && <Text type="secondary">{perk.description}</Text>}
+      {perk.description && <Text>{perk.description}</Text>}
       <Space wrap>
         {perk.effectCategory && <Tag color="gold">{perk.effectCategory}</Tag>}
         {perk.identity && <Tag color="blue">{perk.identity}</Tag>}
@@ -332,224 +348,234 @@ export const ConfigsPage = () => {
     </Space>
   )
 
-  return (
-    <div className="page">
-      <div className="page-header">
-        <div>
-          <Title level={2}>Twink Tech Management</Title>
-          <Paragraph type="secondary">
-            Build configurations for Once Human memetic specializations.
-          </Paragraph>
-        </div>
-      </div>
+  const renderPerkOption = (option: { value?: string | number; label?: React.ReactNode }) => {
+    const value = option.value?.toString() ?? ''
+    const labelText = String(option.label ?? '')
+    const perk = value ? memeticMap.get(value) : undefined
+    return (
+      <Space size="small">
+        <Avatar
+          shape="square"
+          src={perk?.icon || undefined}
+          size={20}
+        >
+          {labelText[0]}
+        </Avatar>
+        <span>{labelText}</span>
+      </Space>
+    )
+  }
 
-      <Card className="config-card">
-        <Space direction="vertical" size="large" className="stretch">
-          {configs.length === 0 ? (
-            <Empty description="Create your first configuration." />
-          ) : (
-            <div className="config-editor">
-              <Tabs
-                className="config-tabs"
-                type="editable-card"
-                activeKey={activeConfigId ?? ''}
-                onChange={(key) => setActiveConfigId(key)}
-                onEdit={(targetKey, action) => {
-                  if (action === 'add') {
-                    handleAddConfig(`Config ${configs.length + 1}`)
+  return (
+    <PageLayout
+      title="Twink Tech Management"
+      description={
+        <Text type="secondary">
+          Build configurations for Once Human memetic specializations.
+        </Text>
+      }
+    >
+      <Space direction="vertical" size="large" className="stretch">
+        {configs.length === 0 ? (
+          <Empty description="Create your first configuration.">
+            <Button
+              type="primary"
+              icon={<PlusOutlined />}
+              onClick={() => handleAddConfig('Config 1')}
+            >
+              Create configuration
+            </Button>
+          </Empty>
+        ) : (
+          <div className="config-editor">
+            <Tabs
+              className="config-tabs"
+              type="editable-card"
+              activeKey={activeConfigId ?? ''}
+              onChange={(key) => setActiveConfigId(key)}
+              onEdit={(targetKey, action) => {
+                if (action === 'add') {
+                  handleAddConfig(`Config ${configs.length + 1}`)
+                  return
+                }
+                if (action === 'remove' && typeof targetKey === 'string') {
+                  const target = configs.find((item) => item.id === targetKey)
+                  const hasPickedPerk = target?.lists.some((list) =>
+                    tierOrder.some((tier) =>
+                      levelSlots[tier].some((level) => list.tiers[tier][level]),
+                    ),
+                  )
+                  const hasExtraData =
+                    Boolean(target?.scenario) ||
+                    Boolean(target?.lists.length) ||
+                    Boolean(hasPickedPerk)
+                  if (hasExtraData) {
+                    Modal.confirm({
+                      title: 'Delete configuration?',
+                      content:
+                        'This configuration contains data. Are you sure you want to delete it?',
+                      okText: 'Delete',
+                      okType: 'danger',
+                      cancelText: 'Cancel',
+                      onOk: () => handleRemoveConfig(targetKey),
+                    })
                     return
                   }
-                  if (action === 'remove' && typeof targetKey === 'string') {
-                    const target = configs.find((item) => item.id === targetKey)
-                    const hasPickedPerk = target?.lists.some((list) =>
-                      tierOrder.some((tier) =>
-                        levelSlots[tier].some((level) => list.tiers[tier][level]),
-                      ),
-                    )
-                    const hasExtraData =
-                      Boolean(target?.scenario) ||
-                      Boolean(target?.lists.length) ||
-                      Boolean(hasPickedPerk)
-                    if (hasExtraData) {
-                      Modal.confirm({
-                        title: 'Delete configuration?',
-                        content:
-                          'This configuration contains data. Are you sure you want to delete it?',
-                        okText: 'Delete',
-                        okType: 'danger',
-                        cancelText: 'Cancel',
-                        onOk: () => handleRemoveConfig(targetKey),
-                      })
-                      return
-                    }
-                    handleRemoveConfig(targetKey)
-                  }
-                }}
-                items={configs.map((item) => ({
-                  key: item.id,
-                  label: (
-                    <Space size="small">
-                      <span>{item.name}</span>
-                      <Button
-                        size="small"
-                        type="text"
-                        icon={<EditOutlined />}
-                        onClick={(event) => {
-                          event.stopPropagation()
-                          openRenameModal(item)
-                        }}
+                  handleRemoveConfig(targetKey)
+                }
+              }}
+              items={configs.map((item) => ({
+                key: item.id,
+                label: (
+                  <Space size="small">
+                    <span>{item.name}</span>
+                    <Button
+                      size="small"
+                      type="text"
+                      icon={<EditOutlined />}
+                      onClick={(event) => {
+                        event.stopPropagation()
+                        openRenameModal(item)
+                      }}
+                    />
+                  </Space>
+                ),
+              }))}
+            />
+
+            {config ? (
+              <Space direction="vertical" size="large" className="stretch">
+                <Card size="small" className="config-controls">
+                  <div className="config-controls-grid">
+                    <Space direction="vertical" size={4} className="stretch">
+                      <Text type="secondary">Scenario</Text>
+                      <Select
+                        allowClear
+                        placeholder="Select scenario"
+                        options={scenarioOptions}
+                        value={config.scenario ?? undefined}
+                        onChange={(value) => handleScenarioChange(value ?? null)}
+                        size="large"
+                        className="scenario-select"
                       />
                     </Space>
-                  ),
-                }))}
-              />
-
-              {config ? (
-                <Space direction="vertical" size="large" className="stretch">
-                  <Card size="small" className="config-controls">
-                    <div className="config-controls-grid">
-                      <Space direction="vertical" size={4} className="stretch">
-                        <Text type="secondary">Scenario</Text>
-                        <Select
-                          allowClear
-                          placeholder="Select scenario"
-                          options={scenarioOptions}
-                          value={config.scenario ?? undefined}
-                          onChange={(value) => handleScenarioChange(value ?? null)}
+                    <div className="list-actions">
+                      <Space
+                        direction="vertical"
+                        size={4}
+                        className="stretch character-input"
+                      >
+                        <Text type="secondary">
+                          Characters: {config.lists.length}/{MAX_LISTS_PER_CONFIG}
+                        </Text>
+                        <Input
+                          placeholder="Type Character name and press +"
+                          value={newListName}
+                          onChange={(event) => setNewListName(event.target.value)}
+                          onPressEnter={handleAddList}
+                          disabled={config.lists.length >= MAX_LISTS_PER_CONFIG}
                           size="large"
                         />
                       </Space>
-                      <div className="list-actions">
-                        <Space
-                          direction="vertical"
-                          size={4}
-                          className="stretch character-input"
-                        >
-                          <Text type="secondary">
-                            Characters: {config.lists.length}/{MAX_LISTS_PER_CONFIG}
-                          </Text>
-                          <Input
-                            placeholder="Type a name and press +"
-                            value={newListName}
-                            onChange={(event) => setNewListName(event.target.value)}
-                            onPressEnter={handleAddList}
-                            disabled={config.lists.length >= MAX_LISTS_PER_CONFIG}
-                            size="large"
-                          />
-                        </Space>
-                        <Button
-                          type="primary"
-                          icon={<PlusOutlined />}
-                          onClick={handleAddList}
-                          disabled={config.lists.length >= MAX_LISTS_PER_CONFIG}
-                          size="large"
-                          className="add-character-button"
-                        />
-                      </div>
+                      <Button
+                        type="primary"
+                        icon={<PlusOutlined />}
+                        onClick={handleAddList}
+                        disabled={config.lists.length >= MAX_LISTS_PER_CONFIG}
+                        size="large"
+                        className="add-character-button"
+                      />
                     </div>
-                  </Card>
+                  </div>
+                </Card>
 
-                  {config.lists.length === 0 ? (
-                    <Empty description="Add your first character." />
-                  ) : (
-                    <Space direction="vertical" size="large" className="stretch">
-                      {config.lists.map((list) => (
-                        <Card
-                          key={list.id}
-                          title={
-                            <Space size="small">
-                              <Text>{list.name}</Text>
-                              <Button
-                                size="small"
-                                type="text"
-                                icon={<EditOutlined />}
-                                onClick={() => openRenameCharacterModal(list.id, list.name)}
-                              />
-                            </Space>
-                          }
-                          extra={
+                {config.lists.length === 0 ? (
+                  <Empty description="Add your first character." />
+                ) : (
+                  <Space direction="vertical" size="large" className="stretch">
+                    {config.lists.map((list) => (
+                      <Card
+                        key={list.id}
+                        title={
+                          <Space size="small">
+                            <Text>{list.name}</Text>
                             <Button
+                              size="small"
                               type="text"
-                              danger
-                              icon={<DeleteOutlined />}
-                              onClick={() => {
-                                const hasPickedPerk = tierOrder.some((tier) =>
-                                  levelSlots[tier].some((level) => list.tiers[tier][level]),
-                                )
-                                if (hasPickedPerk) {
-                                  Modal.confirm({
-                                    title: 'Delete character?',
-                                    content:
-                                      'This character contains data. Are you sure you want to delete it?',
-                                    okText: 'Delete',
-                                    okType: 'danger',
-                                    cancelText: 'Cancel',
-                                    onOk: () => handleRemoveList(list.id),
-                                  })
-                                  return
-                                }
-                                handleRemoveList(list.id)
-                              }}
+                              icon={<EditOutlined />}
+                              onClick={() => openRenameCharacterModal(list.id, list.name)}
                             />
-                          }
-                        >
-                          <div className="tier-grid">
-                            {tierOrder.map((tier) => (
-                              <div key={tier} className="tier-column">
-                                <Space direction="vertical" size="small" className="stretch">
-                                  <Title level={5}>{tierLabels[tier]}</Title>
-                                  <div className="level-grid">
-                                    {levelSlots[tier].map((level) => {
-                                      const perkId = list.tiers[tier][level] ?? null
-                                      const perk = perkId ? memeticMap.get(perkId) : null
-                                          const invalidSelection = perk ? !isPerkAllowed(perk) : false
-                                          const isDuplicate = perkId
-                                            ? duplicatePerks.has(perkId)
-                                            : false
-                                          return (
-                                            <div
-                                              key={level}
-                                              className={`level-slot${invalidSelection ? ' is-invalid' : ''}${
-                                                isDuplicate ? ' is-duplicate' : ''
-                                              }`}
-                                            >
-                                          <Text type="secondary">Level {level}</Text>
-                                          <Select
-                                            showSearch
-                                            allowClear
-                                            placeholder="Select perk"
-                                                options={getOptionsForSlot(perkId, tier, list.id)}
-                                            value={perkId ?? undefined}
-                                            onChange={(value) =>
-                                              handleSetPerk(
-                                                list.id,
-                                                tier,
-                                                level,
-                                                value ?? null,
-                                              )
-                                            }
-                                            filterOption={(input, option) =>
-                                              (option?.label ?? '')
-                                                .toString()
-                                                .toLowerCase()
-                                                .includes(input.toLowerCase())
-                                            }
-                                          />
+                          </Space>
+                        }
+                        extra={
+                          <Button
+                            type="text"
+                            danger
+                            icon={<DeleteOutlined />}
+                            onClick={() => {
+                              const hasPickedPerk = tierOrder.some((tier) =>
+                                levelSlots[tier].some((level) => list.tiers[tier][level]),
+                              )
+                              if (hasPickedPerk) {
+                                Modal.confirm({
+                                  title: 'Delete character?',
+                                  content:
+                                    'This character contains data. Are you sure you want to delete it?',
+                                  okText: 'Delete',
+                                  okType: 'danger',
+                                  cancelText: 'Cancel',
+                                  onOk: () => handleRemoveList(list.id),
+                                })
+                                return
+                              }
+                              handleRemoveList(list.id)
+                            }}
+                          />
+                        }
+                      >
+                        <div className="tier-grid">
+                          {tierOrder.map((tier) => (
+                            <div key={tier} className="tier-column">
+                              <Space direction="vertical" size="small" className="stretch">
+                                <Title level={5}>{tierLabels[tier]}</Title>
+                                <div className="level-grid">
+                                  {levelSlots[tier].map((level) => {
+                                    const perkId = list.tiers[tier][level] ?? null
+                                    const perk = perkId ? memeticMap.get(perkId) : null
+                                    const invalidSelection = perk ? !isPerkAllowed(perk) : false
+                                    const isDuplicate = perkId
+                                      ? duplicatePerks.has(perkId)
+                                      : false
+                                    return (
+                                      <div
+                                        key={level}
+                                        className={`level-slot${invalidSelection ? ' is-invalid' : ''}${isDuplicate ? ' is-duplicate' : ''}`}
+                                      >
+                                        <Space
+                                          align="center"
+                                          className="perk-card"
+                                          onClick={() =>
+                                            openEditSlot(list.id, tier, level, perkId)
+                                          }
+                                        >
+                                          <div className="perk-card-header">
+                                            <Text type="secondary">Level {level}</Text>
+                                            <Button
+                                              size="small"
+                                              type="text"
+                                              icon={<EditOutlined />}
+                                            />
+                                          </div>
                                           {perk ? (
                                             <Tooltip
                                               title={renderTooltip(perk)}
                                               overlayClassName="perk-tooltip-overlay"
-                                              overlayInnerStyle={{
-                                                background: '#ffffff',
-                                                color: '#1f1f1f',
-                                                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
-                                              }}
                                             >
                                               <Space align="center" className="perk-item">
                                                 <Avatar
                                                   shape="square"
                                                   src={perk.icon || undefined}
-                                                  size={40}
+                                                  size={56}
                                                 >
                                                   {perk.name[0]}
                                                 </Avatar>
@@ -558,68 +584,106 @@ export const ConfigsPage = () => {
                                                   <Text type="secondary">
                                                     {perk.identity ?? perk.effectCategory}
                                                   </Text>
-                                                    {invalidSelection && (
-                                                      <Tag color="red">Not available</Tag>
-                                                    )}
-                                                    {isDuplicate && !invalidSelection && (
-                                                      <Tag color="gold">Duplicate</Tag>
-                                                    )}
+                                                  {invalidSelection && (
+                                                    <Tag color="red">Not available</Tag>
+                                                  )}
+                                                  {isDuplicate && !invalidSelection && (
+                                                    <Tag color="gold">Duplicate</Tag>
+                                                  )}
                                                 </Space>
                                               </Space>
                                             </Tooltip>
                                           ) : (
                                             <Tag>Empty</Tag>
                                           )}
-                                        </div>
-                                      )
-                                    })}
-                                  </div>
-                                </Space>
-                              </div>
-                            ))}
-                          </div>
-                        </Card>
-                      ))}
-                    </Space>
-                  )}
-                </Space>
-              ) : (
-                <Empty description="Select a configuration tab." />
-              )}
-            </div>
-          )}
-        </Space>
-        <Modal
-          open={Boolean(renameTarget)}
-          title="Rename configuration"
-          onCancel={closeRenameModal}
-          onOk={submitRename}
-          okText="Save"
-          cancelText="Cancel"
-        >
-          <Input
-            placeholder="Configuration name"
-            value={renameValue}
-            onChange={(event) => setRenameValue(event.target.value)}
-            onPressEnter={submitRename}
-          />
-        </Modal>
-        <Modal
-          open={Boolean(renameCharacterTarget)}
-          title="Rename character"
-          onCancel={closeRenameCharacterModal}
-          onOk={submitCharacterRename}
-          okText="Save"
-          cancelText="Cancel"
-        >
-          <Input
-            placeholder="Character name"
-            value={renameCharacterValue}
-            onChange={(event) => setRenameCharacterValue(event.target.value)}
-            onPressEnter={submitCharacterRename}
-          />
-        </Modal>
-      </Card>
-    </div>
+                                        </Space>
+                                      </div>
+                                    )
+                                  })}
+                                </div>
+                              </Space>
+                            </div>
+                          ))}
+                        </div>
+                      </Card>
+                    ))}
+                  </Space>
+                )}
+              </Space>
+            ) : (
+              <Empty description="Select a configuration tab." />
+            )}
+          </div>
+        )}
+      </Space>
+      <Modal
+        open={Boolean(renameTarget)}
+        title="Rename configuration"
+        onCancel={closeRenameModal}
+        onOk={submitRename}
+        okText="Save"
+        cancelText="Cancel"
+      >
+        <Input
+          placeholder="Tech config name"
+          value={renameValue}
+          onChange={(event) => setRenameValue(event.target.value)}
+          onPressEnter={submitRename}
+        />
+      </Modal>
+      <Modal
+        open={Boolean(renameCharacterTarget)}
+        title="Rename character"
+        onCancel={closeRenameCharacterModal}
+        onOk={submitCharacterRename}
+        okText="Save"
+        cancelText="Cancel"
+      >
+        <Input
+          placeholder="Character name"
+          value={renameCharacterValue}
+          onChange={(event) => setRenameCharacterValue(event.target.value)}
+          onPressEnter={submitCharacterRename}
+        />
+      </Modal>
+      <Modal
+        open={Boolean(editSlot)}
+        title="Select perk"
+        onCancel={closeEditSlot}
+        onOk={submitEditSlot}
+        okText="Apply"
+        cancelText="Cancel"
+        className="perk-modal"
+      >
+        {editSlot ? (
+          <Space direction="vertical" size="middle" className="stretch">
+            <Select
+              style={{ width: '100%' }}
+              showSearch
+              allowClear
+              placeholder="Select perk"
+              options={getOptionsForSlot(editPerkId, editSlot.tier, editSlot.listId)}
+              value={editPerkId ?? undefined}
+              onChange={(value) => setEditPerkId(value ?? null)}
+              optionRender={(option) =>
+                renderPerkOption({ value: option.value, label: option.label })
+              }
+              filterOption={(input, option) =>
+                (option?.label ?? '')
+                  .toString()
+                  .toLowerCase()
+                  .includes(input.toLowerCase())
+              }
+            />
+            {editPerkId ? (
+              <div className="perk-preview">
+                {renderTooltip(memeticMap.get(editPerkId) as Memetic)}
+              </div>
+            ) : null}
+          </Space>
+        ) : null}
+      </Modal>
+
+    </PageLayout>
   )
 }

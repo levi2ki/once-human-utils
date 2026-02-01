@@ -54,3 +54,45 @@ export type Config = {
   scenario: string | null
   lists: TechList[]
 }
+
+export type Plant = {
+  id: string
+  name: string
+  group: string
+  waterMin: number
+  waterMax: number
+  lightMin: number
+  lightMax: number
+}
+
+export type PlantingGroup = {
+  id: string
+  plantId: string | null
+  light: number
+}
+
+export type PlantingFloor = {
+  id: string
+  irrigation: number
+  groups: PlantingGroup[]
+}
+
+export type PlantingConfig = {
+  id: string
+  name: string
+  autoMode: boolean
+  floors: PlantingFloor[]
+}
+
+export type DeviationCategory = 'animals' | 'furniture'
+
+export type Deviation = {
+  id: string
+  category: DeviationCategory
+  trait: string
+  animal: string | null
+  item: string | null
+  combatEffect: string
+  craftingEffect: string
+  icon?: string
+}

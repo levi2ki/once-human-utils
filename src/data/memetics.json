@@ -1,6 +1,5 @@
 {
-  "version": "1.0.0",
-  "source": "https://ohdex.gg/api/memetics/search",
+  "version": "1.1.0",
   "generatedAt": "2026-02-01T13:21:46.354Z",
   "memetics": [
     {
@@ -22,7 +21,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sd_cjl_str.png",
+      "imgUrl": "meme_activated_carbon_filter.png",
       "id": "673f98cdad9c0b22bd116389"
     },
     {
@@ -45,7 +44,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_qxz_lq_str.png",
+      "imgUrl": "meme_adrenaline_shot_phoenix.png",
       "id": "673f98cdad9c0b22bd116397"
     },
     {
@@ -64,7 +63,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zymks_str_l.png",
+      "imgUrl": "meme_armor_module.png",
       "id": "673f98cdad9c0b22bd1163fb"
     },
     {
@@ -86,7 +85,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sy_cjl_str.png",
+      "imgUrl": "meme_art_of_stardust_decay.png",
       "id": "673f98cdad9c0b22bd1163ae"
     },
     {
@@ -108,7 +107,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_fz_str.png",
+      "imgUrl": "meme_backpack_expansion.png",
       "id": "673f98cdad9c0b22bd11637f"
     },
     {
@@ -130,7 +129,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sd_njd_str.png",
+      "imgUrl": "meme_basic_defense_battle_hardened.png",
       "id": "673f98cdad9c0b22bd11638f"
     },
     {
@@ -150,7 +149,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bljypd_str_f.png",
+      "imgUrl": "meme_bastille_gene.png",
       "id": "673f98cdad9c0b22bd1163f1"
     },
     {
@@ -169,7 +168,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bljyzw_str_f.png",
+      "imgUrl": "meme_bastille_gene_fiber.png",
       "id": "673f98cdad9c0b22bd1163f9"
     },
     {
@@ -191,7 +190,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_c_ys_str.png",
+      "imgUrl": "meme_bed_a_place_to_call_home.png",
       "id": "673f98cdad9c0b22bd11638d"
     },
     {
@@ -211,7 +210,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_drdt_str.png",
+      "imgUrl": "meme_bed_heat_preservation.png",
       "id": "673f98cdad9c0b22bd1163db"
     },
     {
@@ -231,7 +230,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rnfdj_str.png",
+      "imgUrl": "meme_biomass_generator_heat_generator.png",
       "id": "673f98cdad9c0b22bd1163d8"
     },
     {
@@ -254,7 +253,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "imgUrl": "meme_biomass_generator_sustained_output.png",
       "id": "673f98cdad9c0b22bd1163a1"
     },
     {
@@ -277,7 +276,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_tsdybj_str.png",
+      "imgUrl": "meme_biomass_missile_ample_munition.png",
       "id": "673f98cdad9c0b22bd1163ab"
     },
     {
@@ -296,7 +295,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fs_str.png",
+      "imgUrl": "meme_blade_fan.png",
       "id": "673f98cdad9c0b22bd1163c9"
     },
     {
@@ -310,12 +309,12 @@
         45,
         50
       ],
-      "effect_title": "Material structures +150, furniture +50",
+      "effect_title": "Structures capacity +50%",
       "effect_description": "",
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jzds_str.png",
+      "imgUrl": "meme_building_master.png",
       "id": "673f98cdad9c0b22bd1163e5"
     },
     {
@@ -338,7 +337,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_gt_njd_str.png",
+      "imgUrl": "meme_canned_goods_mini_canner.png",
       "id": "673f98cdad9c0b22bd1163a3"
     },
     {
@@ -361,7 +360,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dj_sh_str.png",
+      "imgUrl": "meme_chainsaw_chainsaw_horror_show.png",
       "id": "673f98cdad9c0b22bd116390"
     },
     {
@@ -383,7 +382,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sp_cjl_str.png",
+      "imgUrl": "meme_chef_s_knife.png",
       "id": "673f98cdad9c0b22bd116381"
     },
     {
@@ -403,7 +402,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bsxj_str.png",
+      "imgUrl": "meme_claymore_mine_frost_trap.png",
       "id": "673f98cdad9c0b22bd1163d3"
     },
     {
@@ -426,7 +425,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_kjdl_sh_str.png",
+      "imgUrl": "meme_claymore_mine_warrior_s_resolve.png",
       "id": "673f98cdad9c0b22bd116396"
     },
     {
@@ -449,7 +448,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dzyj_zndc_strl.png",
+      "imgUrl": "meme_combo_chipset.png",
       "id": "673f98cdad9c0b22bd11639d"
     },
     {
@@ -468,7 +467,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "imgUrl": "meme_composite_crystal.png",
       "id": "673f98cdad9c0b22bd1163df"
     },
     {
@@ -490,7 +489,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fl_zlzj_str.png",
+      "imgUrl": "meme_compost_bin.png",
       "id": "673f98cdad9c0b22bd116388"
     },
     {
@@ -512,7 +511,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "imgUrl": "meme_composite_crystal.png",
       "id": "673f98cdad9c0b22bd1163af"
     },
     {
@@ -534,7 +533,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cwx_cjl_str.png",
+      "imgUrl": "meme_deluxe_storage_crate.png",
       "id": "673f98cdad9c0b22bd11638e"
     },
     {
@@ -553,7 +552,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_nlcc_str.png",
+      "imgUrl": "meme_deviant_power_generator_energy_extraction.png",
       "id": "673f98cdad9c0b22bd1163e2"
     },
     {
@@ -575,7 +574,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_xcfdj_dl_str.png",
+      "imgUrl": "meme_deviant_power_generator_stardust_unleashed.png",
       "id": "673f98cdad9c0b22bd1163c0"
     },
     {
@@ -597,7 +596,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cj_cjl_str.png",
+      "imgUrl": "meme_disassembly_bench_careful_disassembly.png",
       "id": "673f98cdad9c0b22bd116376"
     },
     {
@@ -619,7 +618,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cj_dzyj_str.png",
+      "imgUrl": "meme_disassembly_bench_electronic_recycling.png",
       "id": "673f98cdad9c0b22bd11637b"
     },
     {
@@ -639,7 +638,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cmjb_str.png",
+      "imgUrl": "meme_dummy_fear_and_terror.png",
       "id": "673f98cdad9c0b22bd1163dc"
     },
     {
@@ -662,7 +661,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dz_cjl_str.png",
+      "imgUrl": "meme_electric_drill_treasure_hunter.png",
       "id": "673f98cdad9c0b22bd116391"
     },
     {
@@ -685,7 +684,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_cjl_str.png",
+      "imgUrl": "meme_electric_furnace_efficiency_lover.png",
       "id": "673f98cdad9c0b22bd116392"
     },
     {
@@ -707,7 +706,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "imgUrl": "meme_composite_crystal.png",
       "id": "673f98cdad9c0b22bd1163ad"
     },
     {
@@ -729,7 +728,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_kx_dzyj_str.png",
+      "imgUrl": "meme_electronics_grabber.png",
       "id": "673f98cdad9c0b22bd11637a"
     },
     {
@@ -748,7 +747,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ldjyyj_str_f.png",
+      "imgUrl": "meme_elysium_coherence_injection.png",
       "id": "673f98cdad9c0b22bd1163e9"
     },
     {
@@ -770,7 +769,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_sl_str.png",
+      "imgUrl": "meme_explosive_on_the_go.png",
       "id": "673f98cdad9c0b22bd116379"
     },
     {
@@ -792,7 +791,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sl_cjl_str.png",
+      "imgUrl": "meme_explosive_sack.png",
       "id": "673f98cdad9c0b22bd11637e"
     },
     {
@@ -815,7 +814,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sl_sh_str.png",
+      "imgUrl": "meme_explosive_throwables_echo_blast.png",
       "id": "673f98cdad9c0b22bd116398"
     },
     {
@@ -835,7 +834,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jxjypd_str_f.png",
+      "imgUrl": "meme_extreme_gene.png",
       "id": "673f98cdad9c0b22bd1163ef"
     },
     {
@@ -854,7 +853,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jxjyzw_str_f.png",
+      "imgUrl": "meme_extreme_gene_fabric.png",
       "id": "673f98cdad9c0b22bd1163f7"
     },
     {
@@ -873,7 +872,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_wcyys_str.png",
+      "imgUrl": "meme_fish_pheromones.png",
       "id": "673f98cdad9c0b22bd1163e3"
     },
     {
@@ -892,7 +891,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_skpd_str.png",
+      "imgUrl": "meme_flamethrower_trap_kebob_party.png",
       "id": "673f98cdad9c0b22bd1163e4"
     },
     {
@@ -914,7 +913,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_xj_sh_str.png",
+      "imgUrl": "meme_flamethrower_trap_scorching_blast.png",
       "id": "673f98cdad9c0b22bd11638a"
     },
     {
@@ -934,7 +933,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jjmk_str_l.png",
+      "imgUrl": "meme_focus_module.png",
       "id": "673f98cdad9c0b22bd1163f2"
     },
     {
@@ -953,7 +952,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_lhnd_str.png",
+      "imgUrl": "meme_frag_grenade_viscoelastic_cold_fire.png",
       "id": "673f98cdad9c0b22bd1163e0"
     },
     {
@@ -973,7 +972,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bshj_str.png",
+      "imgUrl": "meme_frost_armor.png",
       "id": "673f98cdad9c0b22bd1163cf"
     },
     {
@@ -993,7 +992,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "imgUrl": "meme_composite_crystal.png",
       "id": "673f98cdad9c0b22bd1163cd"
     },
     {
@@ -1012,7 +1011,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dhl_str.png",
+      "imgUrl": "meme_furnace_large_furnace.png",
       "id": "673f98cdad9c0b22bd1163c6"
     },
     {
@@ -1034,7 +1033,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zyjs_str.png",
+      "imgUrl": "meme_furnace_precision_refining.png",
       "id": "673f98cdad9c0b22bd116372"
     },
     {
@@ -1057,7 +1056,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "imgUrl": "meme_composite_crystal.png",
       "id": "673f98cdad9c0b22bd1163a7"
     },
     {
@@ -1079,7 +1078,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_yczl_str.png",
+      "imgUrl": "meme_gardening_gloves.png",
       "id": "673f98cdad9c0b22bd116386"
     },
     {
@@ -1101,7 +1100,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_kszxzjq_str.png",
+      "imgUrl": "meme_gatling_cannon_power_blast.png",
       "id": "673f98cdad9c0b22bd1163c4"
     },
     {
@@ -1123,7 +1122,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zb_njd_str.png",
+      "imgUrl": "meme_gear_workbench_customization.png",
       "id": "673f98cdad9c0b22bd116378"
     },
     {
@@ -1146,7 +1145,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "imgUrl": "meme_biomass_generator_sustained_output.png",
       "id": "673f98cdad9c0b22bd1163a2"
     },
     {
@@ -1166,7 +1165,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_gzry_str.png",
+      "imgUrl": "meme_generator_heat_dissipation.png",
       "id": "673f98cdad9c0b22bd1163d5"
     },
     {
@@ -1188,7 +1187,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jyft_str.png",
+      "imgUrl": "meme_gold_pickaxe_and_silver_pickaxe.png",
       "id": "673f98cdad9c0b22bd1163b0"
     },
     {
@@ -1210,7 +1209,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fd_sh_str.png",
+      "imgUrl": "meme_golden_knife.png",
       "id": "673f98cdad9c0b22bd1163b9"
     },
     {
@@ -1233,7 +1232,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_xj_sh_str.png",
+      "imgUrl": "meme_flamethrower_trap_scorching_blast.png",
       "id": "673f98cdad9c0b22bd1163ac"
     },
     {
@@ -1252,7 +1251,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zml_str.png",
+      "imgUrl": "meme_grenade_cluster_grenade.png",
       "id": "673f98cdad9c0b22bd1163de"
     },
     {
@@ -1272,7 +1271,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_gxzy_str.png",
+      "imgUrl": "meme_grenade_line_charge.png",
       "id": "673f98cdad9c0b22bd1163d0"
     },
     {
@@ -1292,7 +1291,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ccds_str.png",
+      "imgUrl": "meme_grilled_dish_grilling_master.png",
       "id": "673f98cdad9c0b22bd1163da"
     },
     {
@@ -1312,7 +1311,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_qlhy_str.png",
+      "imgUrl": "meme_gunpowder_extraction.png",
       "id": "673f98cdad9c0b22bd1163cb"
     },
     {
@@ -1334,7 +1333,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ld_cjl_str.png",
+      "imgUrl": "meme_harvesting_sickle.png",
       "id": "673f98cdad9c0b22bd116387"
     },
     {
@@ -1353,7 +1352,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zymk_str_l.png",
+      "imgUrl": "meme_healing_module.png",
       "id": "673f98cdad9c0b22bd1163fd"
     },
     {
@@ -1375,7 +1374,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hjd_sh_str.png",
+      "imgUrl": "meme_high_power_warhead.png",
       "id": "673f98cdad9c0b22bd1163b3"
     },
     {
@@ -1397,7 +1396,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_slfdj_dl_str.png",
+      "imgUrl": "meme_hydraulic_generator_one_with_the_tides.png",
       "id": "673f98cdad9c0b22bd1163bf"
     },
     {
@@ -1417,7 +1416,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bkykfd_str.png",
+      "imgUrl": "meme_ice_throwing_dagger_and_flame_throwing_dagger.png",
       "id": "673f98cdad9c0b22bd1163d1"
     },
     {
@@ -1440,7 +1439,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bx_str.png",
+      "imgUrl": "meme_iced_treat_brain_freeze.png",
       "id": "673f98cdad9c0b22bd1163a6"
     },
     {
@@ -1463,7 +1462,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fl_cjl_str.png",
+      "imgUrl": "meme_improved_compound_fertilizer.png",
       "id": "673f98cdad9c0b22bd1163a0"
     },
     {
@@ -1482,7 +1481,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ysmk_str_l.png",
+      "imgUrl": "meme_invisible_module.png",
       "id": "673f98cdad9c0b22bd1163fa"
     },
     {
@@ -1501,7 +1500,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zdjyyj_str_f.png",
+      "imgUrl": "meme_judgment_coherence_injection.png",
       "id": "673f98cdad9c0b22bd1163e7"
     },
     {
@@ -1523,7 +1522,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_edt_str.png",
+      "imgUrl": "meme_jump_booster.png",
       "id": "673f98cdad9c0b22bd11637d"
     },
     {
@@ -1545,7 +1544,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sw_sh_str.png",
+      "imgUrl": "meme_kitchen_set_gourmand.png",
       "id": "673f98cdad9c0b22bd1163bc"
     },
     {
@@ -1565,7 +1564,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sdjypd_str_f.png",
+      "imgUrl": "meme_lightning_gene.png",
       "id": "673f98cdad9c0b22bd1163f0"
     },
     {
@@ -1584,7 +1583,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sdjyzw_str_f.png",
+      "imgUrl": "meme_lightning_gene_fabric.png",
       "id": "673f98cdad9c0b22bd1163f8"
     },
     {
@@ -1606,7 +1605,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_mtst_str.png",
+      "imgUrl": "meme_load_handling.png",
       "id": "673f98cdad9c0b22bd116373"
     },
     {
@@ -1625,7 +1624,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fzmk_str_l.png",
+      "imgUrl": "meme_load_module.png",
       "id": "673f98cdad9c0b22bd1163fc"
     },
     {
@@ -1647,7 +1646,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fmj_zu_str.png",
+      "imgUrl": "meme_lucky_logging_platform.png",
       "id": "673f98cdad9c0b22bd1163b1"
     },
     {
@@ -1666,7 +1665,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rnfs_str.png",
+      "imgUrl": "meme_metal_dissolution.png",
       "id": "673f98cdad9c0b22bd1163dd"
     },
     {
@@ -1686,7 +1685,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fzjgyj_str.png",
+      "imgUrl": "meme_molecular_structure_research.png",
       "id": "673f98cdad9c0b22bd1163cc"
     },
     {
@@ -1708,7 +1707,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_prgy_str.png",
+      "imgUrl": "meme_nalcott_easter_egg.png",
       "id": "673f98cdad9c0b22bd1163be"
     },
     {
@@ -1727,7 +1726,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cjjyyj_str_f.png",
+      "imgUrl": "meme_nurture_coherence_injection.png",
       "id": "673f98cdad9c0b22bd1163e6"
     },
     {
@@ -1750,7 +1749,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ry_xc_str.png",
+      "imgUrl": "meme_oil_processing.png",
       "id": "673f98cdad9c0b22bd116393"
     },
     {
@@ -1772,7 +1771,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fg_njd_str.png",
+      "imgUrl": "meme_pickaxe_forest_foe.png",
       "id": "673f98cdad9c0b22bd116375"
     },
     {
@@ -1794,7 +1793,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fg_cjl_str.png",
+      "imgUrl": "meme_pickaxe_moonlight_mining.png",
       "id": "673f98cdad9c0b22bd116374"
     },
     {
@@ -1814,7 +1813,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_wszz_str.png",
+      "imgUrl": "meme_planter_box_greenhouse_planting.png",
       "id": "673f98cdad9c0b22bd1163d9"
     },
     {
@@ -1836,7 +1835,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_fhl_str.png",
+      "imgUrl": "meme_portable_diving_gear.png",
       "id": "673f98cdad9c0b22bd116382"
     },
     {
@@ -1859,7 +1858,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bx_njd_str.png",
+      "imgUrl": "meme_portable_fridge.png",
       "id": "673f98cdad9c0b22bd11639f"
     },
     {
@@ -1879,7 +1878,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_gbzddy_str.png",
+      "imgUrl": "meme_portable_gun_turret_explosive_automatic_ammo.png",
       "id": "673f98cdad9c0b22bd1163d4"
     },
     {
@@ -1902,7 +1901,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jqt_sh_str.png",
+      "imgUrl": "meme_portable_mg_turret_barrage_of_bullets.png",
       "id": "673f98cdad9c0b22bd11639e"
     },
     {
@@ -1924,7 +1923,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_s_str.png",
+      "imgUrl": "meme_portable_rainwater_collection_system.png",
       "id": "673f98cdad9c0b22bd116385"
     },
     {
@@ -1944,7 +1943,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_tskt_str.png",
+      "imgUrl": "meme_portable_thermostat.png",
       "id": "673f98cdad9c0b22bd1163d2"
     },
     {
@@ -1967,7 +1966,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ssqlzz_str.png",
+      "imgUrl": "meme_portable_updraft_device.png",
       "id": "673f98cdad9c0b22bd11639c"
     },
     {
@@ -1990,7 +1989,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jdyd_zndc_str.png",
+      "imgUrl": "meme_precious_metal_refining.png",
       "id": "673f98cdad9c0b22bd116394"
     },
     {
@@ -2010,7 +2009,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zzjypd_str_f.png",
+      "imgUrl": "meme_proliferation_gene.png",
       "id": "673f98cdad9c0b22bd1163ee"
     },
     {
@@ -2029,7 +2028,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zzjyzw_str_f.png",
+      "imgUrl": "meme_proliferation_gene_fabric.png",
       "id": "673f98cdad9c0b22bd1163f6"
     },
     {
@@ -2051,7 +2050,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_bb_ys_str.png",
+      "imgUrl": "meme_pulse_power_device.png",
       "id": "673f98cdad9c0b22bd1163c1"
     },
     {
@@ -2073,7 +2072,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rl_zndc_str.png",
+      "imgUrl": "meme_rare_crystal_set.png",
       "id": "673f98cdad9c0b22bd1163b7"
     },
     {
@@ -2094,7 +2093,7 @@
         "Evolution's Call",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_tsdybj_str.png",
+      "imgUrl": "meme_biomass_missile_ample_munition.png",
       "id": "673f98cdad9c0b22bd1163c3"
     },
     {
@@ -2114,7 +2113,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "imgUrl": "meme_biomass_generator_sustained_output.png",
       "id": "673f98cdad9c0b22bd1163d6"
     },
     {
@@ -2136,7 +2135,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "imgUrl": "meme_reinforced_structures_healing_defense.png",
       "id": "673f98cdad9c0b22bd1163c2"
     },
     {
@@ -2158,7 +2157,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jqt_sh_str.png",
+      "imgUrl": "meme_portable_mg_turret_barrage_of_bullets.png",
       "id": "673f98cdad9c0b22bd1163c5"
     },
     {
@@ -2180,7 +2179,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_rlpr_str.png",
+      "imgUrl": "meme_roasted_dried_low_and_slow.png",
       "id": "673f98cdad9c0b22bd116383"
     },
     {
@@ -2202,7 +2201,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_pt_njd_str.png",
+      "imgUrl": "meme_robotics_facility_skilled_mechanician.png",
       "id": "673f98cdad9c0b22bd11638b"
     },
     {
@@ -2221,7 +2220,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_tswrj_str_l.png",
+      "imgUrl": "meme_rosetta_exploration_drone.png",
       "id": "673f98cdad9c0b22bd1163ec"
     },
     {
@@ -2240,7 +2239,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hlwrj_str_l.png",
+      "imgUrl": "meme_rosetta_firepower_drone.png",
       "id": "673f98cdad9c0b22bd1163eb"
     },
     {
@@ -2259,7 +2258,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_cjwrj_str_l.png",
+      "imgUrl": "meme_rosetta_gathering_drone.png",
       "id": "673f98cdad9c0b22bd1163ea"
     },
     {
@@ -2278,7 +2277,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ldwrj_str_l.png",
+      "imgUrl": "meme_rosetta_territory_drone.png",
       "id": "673f98cdad9c0b22bd1163ed"
     },
     {
@@ -2298,7 +2297,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_lnwrj_str.png",
+      "imgUrl": "meme_scout_drone_freezing_drone.png",
       "id": "673f98cdad9c0b22bd1163ce"
     },
     {
@@ -2320,7 +2319,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_wrj_sh_str.png",
+      "imgUrl": "meme_scout_drone_invisible_hunter.png",
       "id": "673f98cdad9c0b22bd1163bb"
     },
     {
@@ -2343,7 +2342,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_pt_dl_str.png",
+      "imgUrl": "meme_shotgun_turret_volley_fire.png",
       "id": "673f98cdad9c0b22bd1163aa"
     },
     {
@@ -2362,7 +2361,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hbhz_str.png",
+      "imgUrl": "meme_silentfire_shield.png",
       "id": "673f98cdad9c0b22bd1163e1"
     },
     {
@@ -2381,7 +2380,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_xdydzz_str.png",
+      "imgUrl": "meme_snowmobile.png",
       "id": "673f98cdad9c0b22bd1163c8"
     },
     {
@@ -2404,7 +2403,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dz_ty_str.png",
+      "imgUrl": "meme_solar_drill.png",
       "id": "673f98cdad9c0b22bd116395"
     },
     {
@@ -2427,7 +2426,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "imgUrl": "meme_biomass_generator_sustained_output.png",
       "id": "673f98cdad9c0b22bd1163a4"
     },
     {
@@ -2449,7 +2448,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ys_str.png",
+      "imgUrl": "meme_spectral_cloak.png",
       "id": "673f98cdad9c0b22bd1163ba"
     },
     {
@@ -2468,7 +2467,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_tsjyyj_str_f.png",
+      "imgUrl": "meme_speed_coherence_injection.png",
       "id": "673f98cdad9c0b22bd1163e8"
     },
     {
@@ -2488,7 +2487,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jsmk_str_l.png",
+      "imgUrl": "meme_speedy_module.png",
       "id": "673f98cdad9c0b22bd1163f4"
     },
     {
@@ -2507,7 +2506,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hblj_str.png",
+      "imgUrl": "meme_spicy_pepper.png",
       "id": "673f98cdad9c0b22bd1163ca"
     },
     {
@@ -2529,7 +2528,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dq_njd_str.png",
+      "imgUrl": "meme_stardust_barrier_hold_the_line.png",
       "id": "673f98cdad9c0b22bd1163b6"
     },
     {
@@ -2551,7 +2550,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sw_xc_str.png",
+      "imgUrl": "meme_stardust_dish_shell_break.png",
       "id": "673f98cdad9c0b22bd1163bd"
     },
     {
@@ -2573,7 +2572,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ckj_xck_str.png",
+      "imgUrl": "meme_stardust_mining_platform.png",
       "id": "673f98cdad9c0b22bd1163b2"
     },
     {
@@ -2595,7 +2594,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hhj_njd_str.png",
+      "imgUrl": "meme_stardust_regulator.png",
       "id": "673f98cdad9c0b22bd1163b8"
     },
     {
@@ -2618,7 +2617,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_qsq_str.png",
+      "imgUrl": "meme_stardust_water_pump.png",
       "id": "673f98cdad9c0b22bd1163a5"
     },
     {
@@ -2641,7 +2640,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "imgUrl": "meme_reinforced_structures_healing_defense.png",
       "id": "673f98cdad9c0b22bd1163a9"
     },
     {
@@ -2663,7 +2662,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_lz_njd_str.png",
+      "imgUrl": "meme_stove_long_term_storage.png",
       "id": "673f98cdad9c0b22bd116384"
     },
     {
@@ -2686,7 +2685,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_sy_cjl_str.png",
+      "imgUrl": "meme_art_of_stardust_decay.png",
       "id": "673f98cdad9c0b22bd11639a"
     },
     {
@@ -2708,7 +2707,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ryjl_cjl_str.png",
+      "imgUrl": "meme_super_refinery.png",
       "id": "673f98cdad9c0b22bd116377"
     },
     {
@@ -2730,7 +2729,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dy_cjl_str.png",
+      "imgUrl": "meme_supplies_workbench_ammo_factory.png",
       "id": "673f98cdad9c0b22bd116380"
     },
     {
@@ -2752,7 +2751,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_dy_cjl_str.png",
+      "imgUrl": "meme_supplies_workbench_ammo_factory.png",
       "id": "673f98cdad9c0b22bd1163b5"
     },
     {
@@ -2771,7 +2770,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_clls_str.png",
+      "imgUrl": "meme_supplies_workbench_forest_hunter.png",
       "id": "673f98cdad9c0b22bd1163c7"
     },
     {
@@ -2794,7 +2793,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hhj_cjl_str.png",
+      "imgUrl": "meme_supplies_workbench_healing_boost.png",
       "id": "673f98cdad9c0b22bd11639b"
     },
     {
@@ -2814,7 +2813,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_zymk2_str_l.png",
+      "imgUrl": "meme_support_module.png",
       "id": "673f98cdad9c0b22bd1163f5"
     },
     {
@@ -2837,7 +2836,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_pt_njd_str.png",
+      "imgUrl": "meme_robotics_facility_skilled_mechanician.png",
       "id": "673f98cdad9c0b22bd116399"
     },
     {
@@ -2859,7 +2858,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_fd_sh_str.png",
+      "imgUrl": "meme_golden_knife.png",
       "id": "673f98cdad9c0b22bd11637c"
     },
     {
@@ -2881,7 +2880,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_hjd_sh_str.png",
+      "imgUrl": "meme_high_power_warhead.png",
       "id": "673f98cdad9c0b22bd1163b4"
     },
     {
@@ -2904,7 +2903,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_ssqlzz_str.png",
+      "imgUrl": "meme_portable_updraft_device.png",
       "id": "673f98cdad9c0b22bd1163a8"
     },
     {
@@ -2924,7 +2923,7 @@
       "scenarios": [
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_pbcsb_str.png",
+      "imgUrl": "meme_water_pump_underground_pump.png",
       "id": "673f98cdad9c0b22bd1163d7"
     },
     {
@@ -2944,7 +2943,7 @@
       "scenarios": [
         "Prismverse's Clash"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_gymk_str_l.png",
+      "imgUrl": "meme_wide_area_module.png",
       "id": "673f98cdad9c0b22bd1163f3"
     },
     {
@@ -2966,7 +2965,7 @@
         "Prismverse's Clash",
         "Way of Winter"
       ],
-      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "imgUrl": "meme_reinforced_structures_healing_defense.png",
       "id": "673f98cdad9c0b22bd11638c"
     }
   ],

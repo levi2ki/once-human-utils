@@ -23,3 +23,6 @@ dev-dist
 *.njsproj
 *.sln
 *.sw?
+
+# Scripts (fetch/update tools; not shipped)
+scripts

@@ -31,7 +31,7 @@ export const memetics: Memetic[] = data.memetics.map((item) => {
       description: apiItem.effect_description,
       tierGroup: apiItem.tierGroup ?? mapTierGroup(apiItem.level_group),
       icon: apiItem.icon ?? getLocalIcon(apiItem.imgUrl),
-      sourceUrl: apiItem.sourceUrl ?? `https://ohdex.gg/memetics/${id}`,
+      sourceUrl: apiItem.sourceUrl ?? '',
       identity: apiItem.identity,
       effectCategory: apiItem.effect_category,
       levels: apiItem.levels,
