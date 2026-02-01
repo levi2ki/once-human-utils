@@ -1,0 +1,2975 @@
+{
+  "version": "1.0.0",
+  "source": "https://ohdex.gg/api/memetics/search",
+  "generatedAt": "2026-02-01T13:21:46.354Z",
+  "memetics": [
+    {
+      "memory_item_number": "39330101",
+      "name": "Activated Carbon Filter",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Activated Carbon Purifier",
+      "effect_description": "When in your Backpack, you have a 30% chance of receiving Boiled Water or Purified Water when gathering water with a flask. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sd_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116389"
+    },
+    {
+      "memory_item_number": "39230203",
+      "name": "Adrenaline Shot: Phoenix",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Adrenaline Shot",
+      "effect_description": "For 10 seconds after respawning, gain bonus DMG Reduction and slowly recover HP.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_qxz_lq_str.png",
+      "id": "673f98cdad9c0b22bd116397"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Armor Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formula: Armor Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. When the drone has no Shield, it automatically consumes 3 Electronic Parts every 30s to gain 5,000 Shield.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zymks_str_l.png",
+      "id": "673f98cdad9c0b22bd1163fb"
+    },
+    {
+      "memory_item_number": "39120301",
+      "name": "Art of Stardust Decay",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Art of Stardust Decay",
+      "effect_description": "Consume Stardust Source to craft Acid using the Electric Furnace.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sy_cjl_str.png",
+      "id": "673f98cdad9c0b22bd1163ae"
+    },
+    {
+      "memory_item_number": "39230101",
+      "name": "Backpack Expansion",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Backpack Expansion",
+      "effect_description": "When in your Backpack, your Max Load is increased by 40–80. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_fz_str.png",
+      "id": "673f98cdad9c0b22bd11637f"
+    },
+    {
+      "memory_item_number": "39420101",
+      "name": "Basic Defense: Battle-Hardened",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Basic Defense",
+      "effect_description": "Sandbags, Shelters, and High Fortifications gain the Battle-Hardened effect, Durability +100%. When your Territory exits combat, Durability recovers to 100%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sd_njd_str.png",
+      "id": "673f98cdad9c0b22bd11638f"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Bastille Gene",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formulas: Bastille Gene.",
+      "effect_description": "A special item to enhance the Gene Coherence Injection and unlock its advanced capabilities. Enter Bastille status after standing still for 2s. In Bastille status, DMG Reduction +10%, Weakspot DMG Reduction +20%, and taking hits from enemies will mark them (cooldown: 10s).",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bljypd_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f1"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Bastille Gene Fiber",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formulas: Bastille Gene Fabric.",
+      "effect_description": "The gear being crafted gains the following effects: Gear Durability +30%. If this gear is a top, it gains a bonus effect: while in the Coherence status, automatically consume 10 Stardust Source per minute and restore 10% Durability to a piece of gear with the lowest Durability.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bljyzw_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f9"
+    },
+    {
+      "memory_item_number": "39410103",
+      "name": "Bed: A Place to Call Home",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Bed",
+      "effect_description": "Sleep for more than 10s to cure all diseases and reduce Stamina depletion for the next 10 minutes.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_c_ys_str.png",
+      "id": "673f98cdad9c0b22bd11638d"
+    },
+    {
+      "memory_item_number": "39410204",
+      "name": "Bed: Heat Preservation",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Bed.",
+      "effect_description": "Sleep for more than 10s to gain 30% Cold Resist for the next 30 minutes.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_drdt_str.png",
+      "id": "673f98cdad9c0b22bd1163db"
+    },
+    {
+      "memory_item_number": "39320205",
+      "name": "Biomass Generator: Heat Generator",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Biomass Generator",
+      "effect_description": "Can use Hot Rock Ore to generate electricity. Power output +30%.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rnfdj_str.png",
+      "id": "673f98cdad9c0b22bd1163d8"
+    },
+    {
+      "memory_item_number": "39320202",
+      "name": "Biomass Generator: Sustained Output",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Biomass Generator",
+      "effect_description": "Biomass Generator power output +5W, fuel longevity +150%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163a1"
+    },
+    {
+      "memory_item_number": "39420202",
+      "name": "Biomass Missile: Ample Munition",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Biomass Missile",
+      "effect_description": "Plasma Missile weight -80% and yield +2.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_tsdybj_str.png",
+      "id": "673f98cdad9c0b22bd1163ab"
+    },
+    {
+      "memory_item_number": "39220104",
+      "name": "Blade Fan",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Blade Fan",
+      "effect_description": "Made of multiple Throwing Daggers. Upon hitting a target, it triggers different effects based on the Throwing Daggers used.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fs_str.png",
+      "id": "673f98cdad9c0b22bd1163c9"
+    },
+    {
+      "memory_item_number": "39410302",
+      "name": "Building Master",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Material structures +150, furniture +50",
+      "effect_description": "",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jzds_str.png",
+      "id": "673f98cdad9c0b22bd1163e5"
+    },
+    {
+      "memory_item_number": "39340203",
+      "name": "Canned Goods: Mini Canner",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Canned Goods",
+      "effect_description": "+1 yield when crafting Canned Goods.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_gt_njd_str.png",
+      "id": "673f98cdad9c0b22bd1163a3"
+    },
+    {
+      "memory_item_number": "39110202",
+      "name": "Chainsaw: Chainsaw Horror Show",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Electric Chainsaw",
+      "effect_description": "Electric Chainsaw gains Max Durability +50%, Attack Speed +30%, and Melee DMG +100%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dj_sh_str.png",
+      "id": "673f98cdad9c0b22bd116390"
+    },
+    {
+      "memory_item_number": "39340101",
+      "name": "Chef's Knife",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Chef's Knife",
+      "effect_description": "When in your Backpack, Meat yield +1 when Field Dressing animals, with a 30% - 60% chance to yield additional byproducts. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sp_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116381"
+    },
+    {
+      "memory_item_number": "39220206",
+      "name": "Claymore Mine: Frost Trap",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Claymore Mine",
+      "effect_description": "Generates 4 Frost Vortexes when triggered.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bsxj_str.png",
+      "id": "673f98cdad9c0b22bd1163d3"
+    },
+    {
+      "memory_item_number": "39220203",
+      "name": "Claymore Mine: Warrior's Resolve",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Claymore Mine",
+      "effect_description": "Claymore Mine deals an additional 4000 + 400% Psi Intensity damage and increases Max HP by 400% Psi Intensity.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_kjdl_sh_str.png",
+      "id": "673f98cdad9c0b22bd116396"
+    },
+    {
+      "memory_item_number": "39210202",
+      "name": "Combo Chipset",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Combo Chipset",
+      "effect_description": "Turn Electronic Parts, Metal Scrap, and Parts into the Combo Chipset using the Supplies Workbench. The Combo Chipset can be sold for a large number of Energy Links.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dzyj_zndc_strl.png",
+      "id": "673f98cdad9c0b22bd11639d"
+    },
+    {
+      "memory_item_number": "39230304",
+      "name": "Composite Crystal",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Composite Crystal",
+      "effect_description": "Can be crafted with Cold Crystal Ore or Hot Rock Ore at the Supplies Workbench. Can be sold for a high price.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd1163df"
+    },
+    {
+      "memory_item_number": "39310102",
+      "name": "Compost Bin",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Compost Bin",
+      "effect_description": "When in your Backpack, if there is Spoiled Food in your Backpack, 1 - 3 Spoiled Foods will be consumed every 10 - 5 minutes, and be turned into Mushrooms or random Fertilizer. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd116388"
+    },
+    {
+      "memory_item_number": "39120302",
+      "name": "Crystal Transformation",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Crystal Transformation",
+      "effect_description": "Turn Stardust Source and alloy ingots into various types of Crystals at the Electric Furnace.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd1163af"
+    },
+    {
+      "memory_item_number": "39410101",
+      "name": "Deluxe Storage Crate",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Facility: Deluxe Storage Crate",
+      "effect_description": "A large Storage Crate with 64 item slots.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cwx_cjl_str.png",
+      "id": "673f98cdad9c0b22bd11638e"
+    },
+    {
+      "memory_item_number": "39320304",
+      "name": "Deviant Power Generator: Energy Extraction",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Deviation Power Generator",
+      "effect_description": "Deviant Power Generator power output +10%. If the environmental temperature is higher than 50°C, power output +20% more.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_nlcc_str.png",
+      "id": "673f98cdad9c0b22bd1163e2"
+    },
+    {
+      "memory_item_number": "39320302",
+      "name": "Deviant Power Generator: Stardust Unleashed",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Deviant Power Generator",
+      "effect_description": "Increase Deviant Power Generator's power output by 15%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_xcfdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163c0"
+    },
+    {
+      "memory_item_number": "39120103",
+      "name": "Disassembly Bench: Careful Disassembly",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Disassembly Bench",
+      "effect_description": "Yield +30% when disassembling Parts, Fabrics and Plastic.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cj_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116376"
+    },
+    {
+      "memory_item_number": "39210103",
+      "name": "Disassembly Bench: Electronic Recycling",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Disassembly Bench",
+      "effect_description": "Yield +50% for Metal Scrap and Electronic Parts.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cj_dzyj_str.png",
+      "id": "673f98cdad9c0b22bd11637b"
+    },
+    {
+      "memory_item_number": "39420204",
+      "name": "Dummy: Fear and Terror",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Dummy",
+      "effect_description": "Automatically attracts nearby Deviants.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cmjb_str.png",
+      "id": "673f98cdad9c0b22bd1163dc"
+    },
+    {
+      "memory_item_number": "39110203",
+      "name": "Electric Drill: Treasure Hunter",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Electric Drill",
+      "effect_description": "Enjoy +100% yield when mining for Gold Ore, Silver Ore, and Stardust Ore with an Electric Drill.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dz_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116391"
+    },
+    {
+      "memory_item_number": "39120203",
+      "name": "Electric Furnace: Efficiency Lover",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Electric Furnace",
+      "effect_description": "Power Consumption -50%, and Crafting Time -60%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116392"
+    },
+    {
+      "memory_item_number": "39120303",
+      "name": "Electric Furnace: Electrolysis",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Electric Furnace",
+      "effect_description": "Doubles yield when smelting Aluminum and Tungsten Ingots using the Electric Furnace.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd1163ad"
+    },
+    {
+      "memory_item_number": "39210102",
+      "name": "Electronics Grabber",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Electronics Grabber",
+      "effect_description": "When in your Backpack, there is a small to medium chance to receive additional electronic modules when opening a Storage Crate. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_kx_dzyj_str.png",
+      "id": "673f98cdad9c0b22bd11637a"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Elysium Coherence Injection",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formulas: Gene Extractor and Elysium Coherence Injection.",
+      "effect_description": "When holding a Gene Extractor, defeating Deviants yields gene fragments based on enemy types. These fragments can be used to craft the Gene Coherence Injection for enhancing both defensive and offensive abilities. The Coherence status ends after taking damage equal to 70% of your Max HP. After using the Elysium Coherence Injection, staying in any territory for 3s will grant you 1 Coherence, with the following effects based on the materials used: Deviant Fragment: At 10 Coherence, unlock Double Jump and Aerial Sprint abilities within your territory. Anima Fragment: At 10 Coherence, Attack of all allied turrets and traps within the territory +50%. Starlith: At 30 Coherence, convert all Coherence to Ascension, increasing Psi Intensity by 1% per stack but reducing Attack by 0.5%. Each attack consumes one stack of Ascension. Matterlith: At 30 Coherence, while in the territory, Stamina Consumption -30%, Roll Speed +30%, and Tactical Item DMG +30%.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ldjyyj_str_f.png",
+      "id": "673f98cdad9c0b22bd1163e9"
+    },
+    {
+      "memory_item_number": "39220102",
+      "name": "Explosive On-the-Go",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Explosive On-The-Go",
+      "effect_description": "When in your Backpack, the weight of Grenades, Molotov Cocktails, High Explosives, Shrapnel Grenades, Thermite Grenades, RPG7 Rockets, and MGL Grenades is reduced by 30%–60%. After using a throwable, you gain Sprint Speed by 20% for 2s. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_sl_str.png",
+      "id": "673f98cdad9c0b22bd116379"
+    },
+    {
+      "memory_item_number": "39220101",
+      "name": "Explosive Sack",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Explosive Sack",
+      "effect_description": "When in your Backpack, you have a 30%–60% chance of salvaging Mixed Explosives after using High-Explosive Grenades, Shrapnel Grenades, or Explosives, and a 30%–60% chance of salvaging Sulfur after using Molotov Cocktails or Thermite Grenades. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sl_cjl_str.png",
+      "id": "673f98cdad9c0b22bd11637e"
+    },
+    {
+      "memory_item_number": "39220202",
+      "name": "Explosive Throwables: Echo Blast",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Explosive Throwables",
+      "effect_description": "High-Explosive Grenades, Shrapnel Grenades, Molotov Cocktails, and Thermite Grenades gain DMG +30%, and will trigger an additional explosion with the first target killed, dealing DMG equal to 400% Psi Intensity.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sl_sh_str.png",
+      "id": "673f98cdad9c0b22bd116398"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Extreme Gene",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formulas: Extreme Gene.",
+      "effect_description": "A special item to enhance the Gene Coherence Injection and unlock its advanced capabilities. The Coherence status termination condition changes to total damage taken reaching 150% of Max HP. When HP is below 50%, Max Load +50. When HP is below 30%, Weapon DMG +15%, Tactical Item DMG +15%. When HP is below 10%, trigger a healing effect, recovering 1% of Max HP for each unused point of Max Load (30s cooldown).",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jxjypd_str_f.png",
+      "id": "673f98cdad9c0b22bd1163ef"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Extreme Gene Fabric",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formulas: Extreme Gene Fabric.",
+      "effect_description": "The gear being crafted gains the following effects: Weakspot DMG Reduction +3%. If this gear is a Top, it gains a bonus effect: when the Coherence status is terminated, gain invincibility, but Weapon DMG, Status DMG, and Tactical Item DMG drop to 0 for 2s.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jxjyzw_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f7"
+    },
+    {
+      "memory_item_number": "39310301",
+      "name": "Fish Pheromones",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Pheromone Bait",
+      "effect_description": "Can be crafted with pheromones from certain fish at the Supplies Workbench. Use it to increase your chances of catching specific kinds of fish.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_wcyys_str.png",
+      "id": "673f98cdad9c0b22bd1163e3"
+    },
+    {
+      "memory_item_number": "39420304",
+      "name": "Flamethrower Trap: Kebob Party",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Flamethrower Trap",
+      "effect_description": "Flamethrower Traps inflict Burn. If the enemy has more than 10 stacks of Burn, they explode 1 time. Cooldown: 1 second.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_skpd_str.png",
+      "id": "673f98cdad9c0b22bd1163e4"
+    },
+    {
+      "memory_item_number": "39420102",
+      "name": "Flamethrower Trap: Scorching Blast",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Flamethrower Trap",
+      "effect_description": "Flamethrower Trap DMG +30%. When the Flamethrower Trap kills an enemy, an explosion is triggered, dealing AoE Blast DMG to all nearby units. Cooldown: 1 second.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_xj_sh_str.png",
+      "id": "673f98cdad9c0b22bd11638a"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Focus Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formula: Focus Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Gathering Drone: When mining in contest areas, the drone has a chance to extract 10-100 barrels of crude oil from underground layers. Firepower Drone: Attacks can trigger the Unstable Bomber effect. Exploration Drone: Glide Stamina consumption is reduced by 50%, and every 4s during gliding, it automatically marks a random enemy within 20 meters. Territory Drone: After 10 cumulative hits, it provides a 5% boost to Weapon DMG and Status DMG for all allies within 15 meters for 10s, stacking up to 3 times.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jjmk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163f2"
+    },
+    {
+      "memory_item_number": "39220304",
+      "name": "Frag Grenade: Viscoelastic Cold Fire",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Frag Grenade",
+      "effect_description": "Units hit by the Frag Grenade will be marked with Cold Fire. When a marked unit is killed, the environmental temperature within a certain range is reduced by 100°C.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_lhnd_str.png",
+      "id": "673f98cdad9c0b22bd1163e0"
+    },
+    {
+      "memory_item_number": "39230204",
+      "name": "Frost Armor",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Frost Shield Generator",
+      "effect_description": "Can be crafted at the Advanced Synthesis Bench. When the temperature is below 0°C, gain a shield equal to 200% Psi Intensity. The shield refreshes every 300 seconds. If crafted with Fire Crystals, the shield's value is increased to 500% Psi Intensity.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bshj_str.png",
+      "id": "673f98cdad9c0b22bd1163cf"
+    },
+    {
+      "memory_item_number": "39110204",
+      "name": "Furnace: Chaosium Material Analysis",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Furnace",
+      "effect_description": "When using Furnaces and Electric Furnaces to produce Chaosium, production speed -30%; Chaosium yield +1 for every 5°C in excess of 30°C, up to a maximum of +10.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd1163cd"
+    },
+    {
+      "memory_item_number": "39120104",
+      "name": "Furnace: Large Furnace",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Furnace",
+      "effect_description": "For every 5°C increase in the environmental temperature, output increases by 1%, with no upper limit.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dhl_str.png",
+      "id": "673f98cdad9c0b22bd1163c6"
+    },
+    {
+      "memory_item_number": "39120102",
+      "name": "Furnace: Precision Refining",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Furnace",
+      "effect_description": "Resource Consumption -30%, and Smelting Time -30% when smelting Copper, Bronze, Steel, Aluminum, and Tungsten Ingots using a Furnace or Electric Furnace.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zyjs_str.png",
+      "id": "673f98cdad9c0b22bd116372"
+    },
+    {
+      "memory_item_number": "39410202",
+      "name": "Furnace: Sintering",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Furnace",
+      "effect_description": "Sintered Brick and Glass crafting time +50% and yield +100%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zlzj_str.png",
+      "id": "673f98cdad9c0b22bd1163a7"
+    },
+    {
+      "memory_item_number": "39310103",
+      "name": "Gardening Gloves",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Gardening Gloves",
+      "effect_description": "When in your Backpack, there is a 6% - 12% chance to double the seeds when acquiring plant seeds. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_yczl_str.png",
+      "id": "673f98cdad9c0b22bd116386"
+    },
+    {
+      "memory_item_number": "39420302",
+      "name": "Gatling Cannon: Power Blast",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Gatling Cannon",
+      "effect_description": "Gatling Cannons deal +30% DMG. When your Territory exits combat, Durability recovers to 100%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_kszxzjq_str.png",
+      "id": "673f98cdad9c0b22bd1163c4"
+    },
+    {
+      "memory_item_number": "39230103",
+      "name": "Gear Workbench: Customization",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Gear Workbench",
+      "effect_description": "Weapons and Armor crafted using the Gear Workbench enjoy +30% Max Durability.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zb_njd_str.png",
+      "id": "673f98cdad9c0b22bd116378"
+    },
+    {
+      "memory_item_number": "39320203",
+      "name": "Generator: Electrical Expert",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Generator",
+      "effect_description": "Generator output +2W. Maximum number of Generators +1.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163a2"
+    },
+    {
+      "memory_item_number": "39320204",
+      "name": "Generator: Heat Dissipation",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Generator",
+      "effect_description": "When the nearby temperature is higher than 20°C, every 1 additional degree increases power output by 0.2%; when the nearby temperature is higher than 60°C, every 1 additional degree increases power output by 0.5%, up to 40%.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_gzry_str.png",
+      "id": "673f98cdad9c0b22bd1163d5"
+    },
+    {
+      "memory_item_number": "39110301",
+      "name": "Gold Pickaxe and Silver Pickaxe",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formulas: Gold Axe and Silver Axe",
+      "effect_description": "The Gold Pickaxe and Silver Pickaxe have low Durability. When using the Gold Pickaxe to mine, you have a chance of obtaining Masala. When using the Silver Pickaxe to log, you have a chance of obtaining a random fruit.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jyft_str.png",
+      "id": "673f98cdad9c0b22bd1163b0"
+    },
+    {
+      "memory_item_number": "39220301",
+      "name": "Golden Knife",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Golden Knife",
+      "effect_description": "A golden throwing dagger with extremely high damage. Upon hitting an enemy, it triggers the Unstable Bomber effect. If it hits a Deviant's Weakspot, trigger 1 additional Unstable Bomber effect.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fd_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163b9"
+    },
+    {
+      "memory_item_number": "39420203",
+      "name": "Gravitational Grip: Bonds of Guidance",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Gravitational Grip",
+      "effect_description": "When the Gravitational Grip trap is triggered by an enemy, there is a 20% chance to inflict The Bull's Eye on the target.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_xj_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163ac"
+    },
+    {
+      "memory_item_number": "39220305",
+      "name": "Grenade: Cluster Grenade",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Grenade",
+      "effect_description": "After exploding, it generates a secondary bomb that sticks to a random target hit and explodes after a delay.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zml_str.png",
+      "id": "673f98cdad9c0b22bd1163de"
+    },
+    {
+      "memory_item_number": "39220205",
+      "name": "Grenade: Line Charge",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Grenade",
+      "effect_description": "When it explodes, it pulls affected Deviants toward the center of the explosion.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_gxzy_str.png",
+      "id": "673f98cdad9c0b22bd1163d0"
+    },
+    {
+      "memory_item_number": "39340204",
+      "name": "Grilled Dish: Grilling Master",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Grilled Dishes",
+      "effect_description": "Grilled Dishes grant Cold Resist +10 for 10 minutes when consumed; yield +1.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ccds_str.png",
+      "id": "673f98cdad9c0b22bd1163da"
+    },
+    {
+      "memory_item_number": "39120204",
+      "name": "Gunpowder Extraction",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Gunpowder",
+      "effect_description": "Use Hot Rock Ore and other materials to craft gunpowder at the Supplies Workbench.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_qlhy_str.png",
+      "id": "673f98cdad9c0b22bd1163cb"
+    },
+    {
+      "memory_item_number": "39310101",
+      "name": "Harvesting Sickle",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Harvesting Sickle",
+      "effect_description": "When in your Backpack, there is a 20%–40% chance to double the yield when gathering in the wilderness. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ld_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116387"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Healing Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formula: Healing Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Every 10 minutes, automatically consumes 10 Adhesive, Metal Scraps, and 5 Rubber to restore 50% Durability to the lowest Durability gear being worn.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zymk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163fd"
+    },
+    {
+      "memory_item_number": "39220302",
+      "name": "High Power Warhead",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: High Power Warhead",
+      "effect_description": "A lightweight warhead that deals more damage to buildings and vehicles.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hjd_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163b3"
+    },
+    {
+      "memory_item_number": "39320301",
+      "name": "Hydraulic Generator: One with the Tides",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Hydraulic Generator",
+      "effect_description": "Maximum number of Generators +1. Hydraulic Generator power output +0–7W depending on the speed of water flow.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_slfdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163bf"
+    },
+    {
+      "memory_item_number": "39220204",
+      "name": "Ice Throwing Dagger and Flame Throwing Dagger",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formulas: Ice Throwing Dagger and Flame Throwing Dagger",
+      "effect_description": "Can be crafted with Hot Rock Ore or Cold Crystal Ore at the Supplies Workbench. Increases or reduces the target's environmental temperature upon hitting.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bkykfd_str.png",
+      "id": "673f98cdad9c0b22bd1163d1"
+    },
+    {
+      "memory_item_number": "39340202",
+      "name": "Iced Treat: Brain Freeze",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Iced Dishes",
+      "effect_description": "Iced Dish effect duration +200% and effect magnitude +30%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bx_str.png",
+      "id": "673f98cdad9c0b22bd1163a6"
+    },
+    {
+      "memory_item_number": "39310201",
+      "name": "Improved Compound Fertilizer",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Improved Compound Fertilizer",
+      "effect_description": "A crop fertilizer that massively enhances crop yield and deviation probability, but reduces growth speed.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fl_cjl_str.png",
+      "id": "673f98cdad9c0b22bd1163a0"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Invisible Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formula: Invisible Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Automatically consumes 10 Stardust Sources to make the drone enter invisible state for 5 minutes. The drone exits invisible state when dealing damage.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ysmk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163fa"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Judgment Coherence Injection",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formulas: Gene Extractor and Judgment Coherence Injection.",
+      "effect_description": "When holding a Gene Extractor, defeating Deviants yields gene fragments based on enemy types. These fragments can be used to craft the Gene Coherence Injection for enhancing combat abilities. The Coherence status ends after taking damage equal to 70% of your Max HP. After using the Judgement Coherence Injection, each enemy defeated grants 1 Coherence, with the following effects based on the materials used: Deviant Fragment: At 10 Coherence, Status DMG +10%. Anima Fragment: At 10 Coherence, Weapon DMG +10%. Starlith: At 30 Coherence, enter Beyond Mode, consuming 1 Coherence per attack, dealing 50 Sanity DMG to players, and DMG equal to 10% of Max HP to non-player enemies (up to 5,000). Exit Beyond Mode when Coherence is depleted. Matterlith: At 30 Coherence, Roll Stamina Consumption +50%, Roll Speed +30%, DMG Reduction during rolling increased to 80%, and summon a Flamethrower Trap that deals damage equal to 1,000% Psi Intensity over 5s.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zdjyyj_str_f.png",
+      "id": "673f98cdad9c0b22bd1163e7"
+    },
+    {
+      "memory_item_number": "39210101",
+      "name": "Jump Booster",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Jump Booster",
+      "effect_description": "Use to gain the double jump ability for 30 seconds. Can use up to 5 times.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_edt_str.png",
+      "id": "673f98cdad9c0b22bd11637d"
+    },
+    {
+      "memory_item_number": "39340302",
+      "name": "Kitchen Set: Gourmand",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Kitchen Set",
+      "effect_description": "Dishes made at the Kitchen Set gain base effect +30%, effect duration +50%, and crafting time -50%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sw_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163bc"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Lightning Gene",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formulas: Lightning Gene.",
+      "effect_description": "A special item to enhance the Gene Coherence Injection and unlock its advanced capabilities. In combat, automatically select a random enemy within 20 meters every 10s, generating a lightning strike beneath them after a 3s delay, dealing damage equal to 4,000% Psi Intensity.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sdjypd_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f0"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Lightning Gene Fabric",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formulas: Lightning Gene Fabric.",
+      "effect_description": "The gear being crafted gains the following effects: Crit DMG Reduction +3%. If this gear is a Top, it gains a bonus effect: while in the Coherence status, when attacked, a lightning strike will be generated under the attacker's feet after a 3s delay, dealing damage equal to 4,000% Psi Intensity (cooldown: 30s).",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sdjyzw_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f8"
+    },
+    {
+      "memory_item_number": "39110101",
+      "name": "Load Handling",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Load Handling",
+      "effect_description": "When in your Backpack, it reduces the weight of Logs, Gravels, and Ores you carry by 40% - 80%. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_mtst_str.png",
+      "id": "673f98cdad9c0b22bd116373"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Load Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formula: Load Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Every 10 minutes, automatically consumes 5 Portable Mixed Fuel to increase the player's Max Load by 100 for 10 minutes.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fzmk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163fc"
+    },
+    {
+      "memory_item_number": "39110302",
+      "name": "Lucky Logging Platform",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Facility: Lucky Logging Platform",
+      "effect_description": "Receive random crops when in a sunny area.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fmj_zu_str.png",
+      "id": "673f98cdad9c0b22bd1163b1"
+    },
+    {
+      "memory_item_number": "39120304",
+      "name": "Metal Dissolution",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Metal Dissolution",
+      "effect_description": "Use Acid and Gold Ore to craft Chaosium at the Electric Furnace.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rnfs_str.png",
+      "id": "673f98cdad9c0b22bd1163dd"
+    },
+    {
+      "memory_item_number": "39120205",
+      "name": "Molecular Structure Research",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formulas: Ice Crystal and Fire Crystal",
+      "effect_description": "Use Hot Rock Ore or Cold Crystal Ore to craft Fire Crystals and Ice Crystals at the Supplies Workbench.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fzjgyj_str.png",
+      "id": "673f98cdad9c0b22bd1163cc"
+    },
+    {
+      "memory_item_number": "39340301",
+      "name": "Nalcott Easter Egg",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Nalcott Easter Egg",
+      "effect_description": "Use to receive the contents of a random Settlement Loot Crate.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_prgy_str.png",
+      "id": "673f98cdad9c0b22bd1163be"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Nurture Coherence Injection",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formulas: Gene Extractor and Nurture Coherence Injection.",
+      "effect_description": "When holding a Gene Extractor, defeating Deviants yields gene fragments based on enemy types. These fragments can be used to craft the Gene Coherence Injection for enhancing gathering abilities. The Coherence status ends after taking damage equal to 70% of your Max HP. After using the Nurture Coherence Injection, each gathering action grants 1 Coherence, with the following effects based on the materials used: Deviant Fragment: At 10 Coherence, Mining Savage Strike Rate +50%, and Mining Last Hit Yield +100%. Anima Fragment: At 10 Coherence, while holding a pickaxe or chainsaw, Movement Speed +15%, and the yield of Logs, Sulfur, Silver Ore, Gold Ore, and Stardust Ore +30%. Starlith: At 30 Coherence, consume all Coherence to increase final hit yield from logging and mining by 1,000% for 5s. Matterlith: At 30 Coherence, there's a small chance to trigger an Oil Gusher when mining in contest areas, granting 30 Barreled Crude Oil to all allied players within 5 meters.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cjjyyj_str_f.png",
+      "id": "673f98cdad9c0b22bd1163e6"
+    },
+    {
+      "memory_item_number": "39120201",
+      "name": "Oil Processing",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Oil Processing",
+      "effect_description": "Turn Stardust Ore and Portable Mixed Fuel into Stardust Source using the Electric Furnace.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ry_xc_str.png",
+      "id": "673f98cdad9c0b22bd116393"
+    },
+    {
+      "memory_item_number": "39110103",
+      "name": "Pickaxe: Forest Foe",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Pickaxe",
+      "effect_description": "Pickaxe Durability is doubled. Enjoy +30% yield when logging with the Pickaxe, and gain 150% of the resources when you completely destroy a tree.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fg_njd_str.png",
+      "id": "673f98cdad9c0b22bd116375"
+    },
+    {
+      "memory_item_number": "39110102",
+      "name": "Pickaxe: Moonlight Mining",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Pickaxe",
+      "effect_description": "When using the Pickaxe to mine, increase the yield of Copper Ore, Tin Ore, Iron Ore, Aluminum Ore, and Tungsten by 25%. Effect doubles at night (21:00–06:00).",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fg_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116374"
+    },
+    {
+      "memory_item_number": "39310202",
+      "name": "Planter Box: Greenhouse Planting",
+      "identity": "Child of the Earth",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Planter Box",
+      "effect_description": "Increases crop growth rate. Yield +1 for every 20°C increase in temperature.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_wszz_str.png",
+      "id": "673f98cdad9c0b22bd1163d9"
+    },
+    {
+      "memory_item_number": "39330103",
+      "name": "Portable Diving Gear",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Portable Diving Gear",
+      "effect_description": "When in your Backpack, increase Oxygen by 40% - 100% and Swimming Speed by 20% - 40% when diving. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_fhl_str.png",
+      "id": "673f98cdad9c0b22bd116382"
+    },
+    {
+      "memory_item_number": "39340201",
+      "name": "Portable Fridge",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Portable Fridge",
+      "effect_description": "When in your Backpack, food in your Backpack spoils 70%–90% less quickly. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bx_njd_str.png",
+      "id": "673f98cdad9c0b22bd11639f"
+    },
+    {
+      "memory_item_number": "39210205",
+      "name": "Portable Gun Turret: Explosive Automatic Ammo",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: MG Turret",
+      "effect_description": "The MG Turret's bullets have a chance of triggering Unstable Bomber.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_gbzddy_str.png",
+      "id": "673f98cdad9c0b22bd1163d4"
+    },
+    {
+      "memory_item_number": "39210203",
+      "name": "Portable MG Turret: Barrage of Bullets",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Portable MG Turret",
+      "effect_description": "Portable MG Turrets gain HP and DMG +30%, and their shots can trigger the Bounce effect. Portable MG Turret becomes a reusable item with up to 5 uses.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jqt_sh_str.png",
+      "id": "673f98cdad9c0b22bd11639e"
+    },
+    {
+      "memory_item_number": "39330102",
+      "name": "Portable Rainwater Collection System",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Portable Rainwater Collection System",
+      "effect_description": "When in your Backpack, slowly recover Hydration, and a 30% - 60% chance to receive 1 Dirty Water, Pure Water, or Acid every minute when it rains. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_s_str.png",
+      "id": "673f98cdad9c0b22bd116385"
+    },
+    {
+      "memory_item_number": "39230205",
+      "name": "Portable Thermostat",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Portable Thermostat",
+      "effect_description": "Can be crafted at the Supplies Workbench. Reduces or increases the environmental temperature within 3 meters by 20°C (effect does not stack).",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_tskt_str.png",
+      "id": "673f98cdad9c0b22bd1163d2"
+    },
+    {
+      "memory_item_number": "39210201",
+      "name": "Portable Updraft Device",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Portable Updraft Device",
+      "effect_description": "Use to temporarily summon an updraft at the location for 30 seconds. When inside the updraft, jump height is increased. Can use up to 10 times.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ssqlzz_str.png",
+      "id": "673f98cdad9c0b22bd11639c"
+    },
+    {
+      "memory_item_number": "39120202",
+      "name": "Precious Metal Refining",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Precious Metal Refining",
+      "effect_description": "Smelt Gold and Silver Ores into Ingots using the Electric Furnace. The Ingots can be sold for a large number of Energy Links.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jdyd_zndc_str.png",
+      "id": "673f98cdad9c0b22bd116394"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Proliferation Gene",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formulas: Proliferation Gene.",
+      "effect_description": "A special item to enhance the Gene Coherence Injection and unlock its advanced capabilities. After using the injection, create a Proliferation Zone. Within this zone, the acquisition amount for all Parts, Fabrics, Plastics, Metal Scraps, Rubber, Adhesives, Electronic Parts, Crystals, and Acid is increased by 30% for 10s.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zzjypd_str_f.png",
+      "id": "673f98cdad9c0b22bd1163ee"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Proliferation Gene Fabric",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock new formulas: Proliferation Gene Fabric.",
+      "effect_description": "The gear being crafted gains the following effects: Max Load +10%. If this gear is a Top, it gains a bonus effect: While in the Coherence status, convert a small amount of Barreled Crude Oil in your backpack into Portable Mixed Fuel every 30s.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zzjyzw_str_f.png",
+      "id": "673f98cdad9c0b22bd1163f6"
+    },
+    {
+      "memory_item_number": "39320303",
+      "name": "Pulse Power Device",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Pulse Power Device",
+      "effect_description": "When in your Backpack, if you are struck by lightning, recover all HP and gain Movement Speed +15% and Psi Intensity +30% for 60 seconds. Effect cannot stack.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_bb_ys_str.png",
+      "id": "673f98cdad9c0b22bd1163c1"
+    },
+    {
+      "memory_item_number": "39230301",
+      "name": "Rare Crystal Set",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Rare Crystal Set",
+      "effect_description": "You can refine crystals into Rare Crystal Sets at the Electric Furnace. Rare Crystal Sets can be sold for a larger number of Energy Links.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rl_zndc_str.png",
+      "id": "673f98cdad9c0b22bd1163b7"
+    },
+    {
+      "memory_item_number": "39420301",
+      "name": "Red Plasma Rounds",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Red Plasma Rounds",
+      "effect_description": "Special ammunition used by Gatling Cannons. They are extremely expensive but overwhelmingly powerful. There is no bullet drop in its trajectory, deals tons of damage, and has a large explosive radius. Can be kept for 24 hours.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_tsdybj_str.png",
+      "id": "673f98cdad9c0b22bd1163c3"
+    },
+    {
+      "memory_item_number": "39330202",
+      "name": "Refining Facility: Smelting",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Refining Facility",
+      "effect_description": "The Refining Facility can refine Sulfur into Hot Rock Ore.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163d6"
+    },
+    {
+      "memory_item_number": "39410301",
+      "name": "Reinforced Structures: Healing Defense",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Reinforced Structures",
+      "effect_description": "Reinforced structures gain the Healing Defense effect. When your territory exits combat, the Durability of reinforced structures is automatically restored to 80%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "id": "673f98cdad9c0b22bd1163c2"
+    },
+    {
+      "memory_item_number": "39420303",
+      "name": "Rifle Turret: Two Birds One Stone",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Rifle Turret",
+      "effect_description": "Rifle Turrets gain DMG +30% and Durability +30%, and trigger the Bounce effect upon hitting an enemy.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jqt_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163c5"
+    },
+    {
+      "memory_item_number": "39340103",
+      "name": "Roasted & Dried: Low and Slow",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Roasted & Dried",
+      "effect_description": "Roasted and Dried Dishes now provide +15 Energy and +10% Sanity.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_rlpr_str.png",
+      "id": "673f98cdad9c0b22bd116383"
+    },
+    {
+      "memory_item_number": "39420103",
+      "name": "Robotics Facility: Skilled Mechanician",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Robotics Facility",
+      "effect_description": "Trap and Rifle Turret facilities gain Durability +50%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_pt_njd_str.png",
+      "id": "673f98cdad9c0b22bd11638b"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Rosetta Exploration Drone",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formula: Rosetta Exploration Drone.",
+      "effect_description": "The Rosetta Exploration Drone can be summoned at any time. When present, it can replace V for special gliding. This special gliding has no takeoff height limit and doesn't lose altitude during flight, but Stamina consumption is greatly increased. The special advanced effects depend on the crafting materials used.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_tswrj_str_l.png",
+      "id": "673f98cdad9c0b22bd1163ec"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Rosetta Firepower Drone",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formula: Rosetta Firepower Drone.",
+      "effect_description": "The Rosetta Firepower Drone can be summoned at any time. The drone has mid-range shooting capabilities. The special advanced effects depend on the crafting materials used.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hlwrj_str_l.png",
+      "id": "673f98cdad9c0b22bd1163eb"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Rosetta Gathering Drone",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formula: Rosetta Gathering Drone.",
+      "effect_description": "The Rosetta Gathering Drone can be summoned at any time. If the player hasn't reached their Load limit, the drone will automatically seek out and gather the highest-level minerals nearby. The special advanced effects depend on the crafting materials used.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_cjwrj_str_l.png",
+      "id": "673f98cdad9c0b22bd1163ea"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Rosetta Territory Drone",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formula: Rosetta Territory Drone.",
+      "effect_description": "The Rosetta Territory Drone can be summoned at any time. When the player is within their territory, the drone unlocks long-range shooting capabilities, while all allied turrets and traps within the territory gain a 50% Attack boost. The special advanced effects depend on the crafting materials used.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ldwrj_str_l.png",
+      "id": "673f98cdad9c0b22bd1163ed"
+    },
+    {
+      "memory_item_number": "39210204",
+      "name": "Scout Drone: Freezing Drone",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Improved Formula: Scout Drone",
+      "effect_description": "Scout Drones reduce the Movement Speed of nearby enemy units.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_lnwrj_str.png",
+      "id": "673f98cdad9c0b22bd1163ce"
+    },
+    {
+      "memory_item_number": "39210302",
+      "name": "Scout Drone: Invisible Hunter",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Scout Drone",
+      "effect_description": "Scout Drones enjoy The Bull's Eye effect, +30% Scout Drone HP and DMG. Scout Drones can also now be used up to 5 times.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_wrj_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163bb"
+    },
+    {
+      "memory_item_number": "39420201",
+      "name": "Shotgun Turret: Volley Fire",
+      "identity": "Artillery Marshal",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Shotgun Turret",
+      "effect_description": "Shotgun Turrets gain DMG +30%, Power Consumption -30%, and have a 30% chance to trigger a Shrapnel effect upon hitting an enemy.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_pt_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163aa"
+    },
+    {
+      "memory_item_number": "39210304",
+      "name": "Silentfire Shield",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Silentfire Shield",
+      "effect_description": "Can be crafted at the Synthesis Bench. When the environmental temperature falls below -10°C, generate a 360° shield for up to 300 seconds. Shield Value = Your HP + 100% Psi Intensity - Current Temperature * 500.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hbhz_str.png",
+      "id": "673f98cdad9c0b22bd1163e1"
+    },
+    {
+      "memory_item_number": "39230105",
+      "name": "Snowmobile",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Formula: Snowmobile",
+      "effect_description": "Can be crafted at the Supplies Workbench. Movement Speed in snow +20%, Movement Speed in blizzards +10%, Cold Resist +10.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_xdydzz_str.png",
+      "id": "673f98cdad9c0b22bd1163c8"
+    },
+    {
+      "memory_item_number": "39110201",
+      "name": "Solar Drill",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Solar Drill",
+      "effect_description": "The Solar Drill charges itself on sunny days. Enjoy +15%-40% yields of Copper Ore, Tin Ore, Iron Ore, Aluminum Ore and Tungsten Ore.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dz_ty_str.png",
+      "id": "673f98cdad9c0b22bd116395"
+    },
+    {
+      "memory_item_number": "39320201",
+      "name": "Solar Generator: Photon Power",
+      "identity": "Sparksmith",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Solar Generator",
+      "effect_description": "Solar Generator power output +10W.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fdj_dl_str.png",
+      "id": "673f98cdad9c0b22bd1163a4"
+    },
+    {
+      "memory_item_number": "39210301",
+      "name": "Spectral Cloak",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Spectral Cloak.",
+      "effect_description": "Activate to become Cloaked for 120s. Upon leaving combat, you'll become Stealthy. Use up to 10 times.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ys_str.png",
+      "id": "673f98cdad9c0b22bd1163ba"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Speed Coherence Injection",
+      "identity": "Legendary Mayfly",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock new formulas: Gene Extractor and Speed Coherence Injection.",
+      "effect_description": "When holding a Gene Extractor, defeating Deviants yields gene fragments based on enemy types. These fragments can be used to craft the Gene Coherence Injection for enhancing mobility. The Coherence status ends after taking damage equal to 70% of your Max HP. After using the Speed Coherence Injection, moving for 2s grants 1 Coherence, with the following effects based on the materials used: Deviant Fragment: At 10 Coherence, enhance V's abilities, reducing Gliding Speed by 70% and increasing horizontal Gliding Speed by 50%. Anima Fragment: At 10 Coherence, recover 5% HP and Sanity per second while driving, and gain Shield equal to 60% of Max HP when exiting driving (cooldown: 30s). Starlith: At 30 Coherence, gain invisibility for 10s after gliding ends. Matterlith: At 30 Coherence, while in a mobile territory or vehicle, Weapon DMG +20%, Status DMG +20%, and DMG Reduction +20%.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_tsjyyj_str_f.png",
+      "id": "673f98cdad9c0b22bd1163e8"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Speedy Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formula: Speedy Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Gathering Drone: When the player holds a gathering tool, Max Stamina increases by 50, Movement Speed increases by 20%, and Sprint Speed increases by 30%; final hit yield during gathering increases by 200%. Firepower Drone: Unlocks an electric shock skill for the drone, which can dash toward enemies within range, paralyzing them for 3s. Exploration Drone: Grants the player a 15% Movement Speed boost and double jump ability. Territory Drone: When the player is in someone else's territory, Stamina consumption decreases by 30%, Roll Speed increases by 30%, and Tactical Item DMG increases by 30%.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jsmk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163f4"
+    },
+    {
+      "memory_item_number": "39340104",
+      "name": "Spicy Pepper",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Spicy Pepper Dishes",
+      "effect_description": "Dishes that include Spicy Pepper as an ingredient are 30% more effective. When consumed, they deal DMG equal to 10% Psi Intensity to nearby enemies, with a 30% chance to deal additional DMG equal to 90% Psi Intensity and inflict 1 stack of Burn.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hblj_str.png",
+      "id": "673f98cdad9c0b22bd1163ca"
+    },
+    {
+      "memory_item_number": "39210303",
+      "name": "Stardust Barrier: Hold the Line",
+      "identity": "Machinist",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Stardust Barrier",
+      "effect_description": "Stardust Barriers gain HP +50%. When a Stardust Barrier is deployed, it restores 50% HP for all allies within 3 meters. Stardust Barrier becomes a reusable item with up to 5 uses.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dq_njd_str.png",
+      "id": "673f98cdad9c0b22bd1163b6"
+    },
+    {
+      "memory_item_number": "39340303",
+      "name": "Stardust Dish: Shell Break",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Improved Formula: Stardust Dish",
+      "effect_description": "The Stardust Dish provides 2 special Whim effects. For 30 minutes after consuming it, you will recover HP over time when your Sanity is full.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sw_xc_str.png",
+      "id": "673f98cdad9c0b22bd1163bd"
+    },
+    {
+      "memory_item_number": "39110303",
+      "name": "Stardust Mining Platform",
+      "identity": "Prospector",
+      "effect_category": "Gathering",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Facility: Stardust Mining Platform",
+      "effect_description": "Increases Mining yield by 20%. Can mine Stardust Ore when in a Pollution Zone.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ckj_xck_str.png",
+      "id": "673f98cdad9c0b22bd1163b2"
+    },
+    {
+      "memory_item_number": "39230302",
+      "name": "Stardust Regulator",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Stardust Regulator",
+      "effect_description": "Immediately recover 70% HP and gain a shield equal to 30% Max HP. Cooldown: 30 seconds (not shared with Activators). Can be used up to 15 times.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hhj_njd_str.png",
+      "id": "673f98cdad9c0b22bd1163b8"
+    },
+    {
+      "memory_item_number": "39330201",
+      "name": "Stardust Water Pump",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Facility: Stardust Water Pump",
+      "effect_description": "A special water pump that can extract Stardust Source from polluted soil when supplied with Storage Batteries.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_qsq_str.png",
+      "id": "673f98cdad9c0b22bd1163a5"
+    },
+    {
+      "memory_item_number": "39410201",
+      "name": "Stone Structures: Intense Defense",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Stone Structures",
+      "effect_description": "Structures built from stone gain the Intense Defense effect and Durability +100%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "id": "673f98cdad9c0b22bd1163a9"
+    },
+    {
+      "memory_item_number": "39340102",
+      "name": "Stove: Long-Term Storage",
+      "identity": "Star Chef",
+      "effect_category": "Management",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Stove",
+      "effect_description": "Doubles the shelf life of Dishes you cook.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_lz_njd_str.png",
+      "id": "673f98cdad9c0b22bd116384"
+    },
+    {
+      "memory_item_number": "39220201",
+      "name": "Sulfur Chemist",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Sulfur Chemist",
+      "effect_description": "You can use Sulfur and Energy Links to slowly craft Acid at the Synthesis Bench.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_sy_cjl_str.png",
+      "id": "673f98cdad9c0b22bd11639a"
+    },
+    {
+      "memory_item_number": "39120101",
+      "name": "Super Refinery",
+      "identity": "Smelter",
+      "effect_category": "Gathering",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Unlock New Facility: Super Refinery",
+      "effect_description": "Has increased transformation efficiency, and can transform Acid into Portable Mixed Fuel.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ryjl_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116377"
+    },
+    {
+      "memory_item_number": "39230102",
+      "name": "Supplies Workbench: Ammo Factory",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Supplies Workbench",
+      "effect_description": "Crafting Output +50% when crafting regular Ammunition.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dy_cjl_str.png",
+      "id": "673f98cdad9c0b22bd116380"
+    },
+    {
+      "memory_item_number": "39230303",
+      "name": "Supplies Workbench: Anti-Armor",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Facility Boost: Supplies Workbench",
+      "effect_description": "Yield +30% and Crafting Time -50% when crafting AP Ammo.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_dy_cjl_str.png",
+      "id": "673f98cdad9c0b22bd1163b5"
+    },
+    {
+      "memory_item_number": "39230104",
+      "name": "Supplies Workbench: Forest Hunter",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Supplies Workbench",
+      "effect_description": "Crossbow Bolt output +50% and crafting time -50%.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_clls_str.png",
+      "id": "673f98cdad9c0b22bd1163c7"
+    },
+    {
+      "memory_item_number": "39230202",
+      "name": "Supplies Workbench: Healing Boost",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Supplies Workbench",
+      "effect_description": "HP Recovery +10% when crafting Activators, and Output +1.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hhj_cjl_str.png",
+      "id": "673f98cdad9c0b22bd11639b"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Support Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formula: Support Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Gathering Drone: Every 30s, converts some ores from the player's backpack into corresponding metal ingots without consuming fuel or acid. Firepower Drone: Unlocks a healing skill for the drone, which heals the ally with the lowest HP within range. If a player falls and doesn't Black Out within 10s, their fallen state will be removed. Exploration Drone: The player enters invisible state after leaving combat. Territory Drone: When the player is in their own territory, recovers 5% HP per second; if HP drops below 50%, enters invisible state (30s cooldown).",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_zymk2_str_l.png",
+      "id": "673f98cdad9c0b22bd1163f5"
+    },
+    {
+      "memory_item_number": "39230201",
+      "name": "Synthesis Bench: Recycle & Reuse",
+      "identity": "Master Craftsman",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Synthesis Bench",
+      "effect_description": "When crafting Drones, Turrets, Stardust Shields, Spectrum Generators, and Projection Generators, increase their use count by 1.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_pt_njd_str.png",
+      "id": "673f98cdad9c0b22bd116399"
+    },
+    {
+      "memory_item_number": "39220103",
+      "name": "Throwing Dagger: Bullseye",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Improved Formula: Throwing Dagger",
+      "effect_description": "Throwing Dagger +30% DMG. After killing an enemy with a Throwing Dagger, the next throw +100% DMG.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_fd_sh_str.png",
+      "id": "673f98cdad9c0b22bd11637c"
+    },
+    {
+      "memory_item_number": "39220303",
+      "name": "Ultra Grenade",
+      "identity": "Demolition Expert",
+      "effect_category": "Crafting",
+      "level_group": 3,
+      "levels": [
+        40,
+        45,
+        50
+      ],
+      "effect_title": "Unlock New Formula: Ultra Grenade",
+      "effect_description": "Higher Blast DMG, and additional bonus DMG against buildings and vehicles.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_hjd_sh_str.png",
+      "id": "673f98cdad9c0b22bd1163b4"
+    },
+    {
+      "memory_item_number": "39410203",
+      "name": "Updraft Device: Gravity Lite",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Facility Boost: Updraft Cannon",
+      "effect_description": "The Updraft Cannon reduces nearby gravity and grants increased Movement Speed for 5 seconds.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_ssqlzz_str.png",
+      "id": "673f98cdad9c0b22bd1163a8"
+    },
+    {
+      "memory_item_number": "39330203",
+      "name": "Water Pump: Underground Pump",
+      "identity": "Hydro Engineer",
+      "effect_category": "Management",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock New Formula: Icebreaker Water Pump",
+      "effect_description": "You can install it on an ice surface or water surface to break the ice and gather the resources below.",
+      "scenarios": [
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_pbcsb_str.png",
+      "id": "673f98cdad9c0b22bd1163d7"
+    },
+    {
+      "memory_item_number": "0",
+      "name": "Wide-Area Module",
+      "identity": "Legendary Rosetta",
+      "effect_category": "Crafting",
+      "level_group": 2,
+      "levels": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "effect_title": "Unlock new formula: Wide-Area Module.",
+      "effect_description": "A special item to enhance drones and unlock their advanced capabilities. Gathering Drone: Doubles the yield when collecting minerals and destroys all gathered items within a 3-meter radius. Firepower Drone: Attacks can trigger the Bounce effect. Exploration Drone: Significantly increases horizontal gliding speed and grants 20% DMG Reduction while gliding. Territory Drone: When in territory, the drone automatically generates a spherical shield every 30s, capable of absorbing DMG equal to 5,000% of the drone's Attack.",
+      "scenarios": [
+        "Prismverse's Clash"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_gymk_str_l.png",
+      "id": "673f98cdad9c0b22bd1163f3"
+    },
+    {
+      "memory_item_number": "39410102",
+      "name": "Wood Structures: Tough Plant",
+      "identity": "Tinkerer",
+      "effect_category": "Building",
+      "level_group": 1,
+      "levels": [
+        5,
+        10,
+        15
+      ],
+      "effect_title": "Facility Boost: Wood Structures",
+      "effect_description": "Structures built from wood obtain the Tough Plant effect and Durability +150%.",
+      "scenarios": [
+        "Manibus",
+        "Evolution's Call",
+        "Prismverse's Clash",
+        "Way of Winter"
+      ],
+      "imgUrl": "meme_cbt2_icon_skill_jd_njd_str.png",
+      "id": "673f98cdad9c0b22bd11638c"
+    }
+  ],
+  "total": 140,
+  "totalPages": 5
+}

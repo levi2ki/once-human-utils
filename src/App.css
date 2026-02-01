@@ -1,0 +1,241 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 16px 32px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.app-header-inner {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.app-title {
+  margin: 0;
+}
+
+.app-content {
+  padding: 16px 20px 32px;
+}
+
+.app-main {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+
+.app-sider {
+  border-right: 1px solid #f0f0f0;
+  background: #ffffff;
+  padding: 20px 12px;
+}
+
+.app-sider .ant-menu {
+  border-inline-end: none;
+}
+
+.app-sider .ant-menu-item {
+  border-radius: 8px;
+  height: 40px;
+  line-height: 40px;
+  margin: 4px 8px;
+}
+
+.sider-header {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 8px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 12px;
+}
+
+.sider-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #1677ff;
+  color: #ffffff;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.sider-title {
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.sider-subtitle {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.app-footer {
+  text-align: center;
+  background: transparent;
+}
+
+.page {
+  max-width: 100%;
+  margin: 0;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.collection-select {
+  min-width: 200px;
+}
+
+.tags {
+  margin-bottom: 8px;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.stretch {
+  width: 100%;
+}
+
+.config-card {
+  background: #ffffff;
+}
+
+.config-actions,
+.list-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.character-input {
+  min-width: 0;
+}
+
+.config-controls-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(360px, 2fr);
+  gap: 16px;
+  align-items: end;
+}
+
+.add-character-button {
+  align-self: flex-end;
+  min-width: 48px;
+}
+
+.config-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+}
+
+.config-list .ant-list-item {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.config-list .ant-list-item.active {
+  background: #e6f4ff;
+}
+
+.config-editor {
+  min-height: 320px;
+}
+
+.config-tabs {
+  margin-bottom: 16px;
+}
+
+.config-tabs .tab-input {
+  min-width: 160px;
+}
+
+.coming-soon-card {
+  max-width: 520px;
+  margin: 48px auto;
+  text-align: left;
+}
+
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.tier-column {
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.perk-item {
+  cursor: default;
+}
+
+.perk-tooltip {
+  max-width: 360px;
+}
+
+.perk-tooltip-overlay .ant-tooltip-inner {
+  background: #ffffff;
+  color: #1f1f1f;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.perk-tooltip-overlay .ant-tooltip-arrow::before {
+  background: #ffffff;
+}
+
+.perk-tooltip-overlay .ant-typography,
+.perk-tooltip-overlay .ant-typography-secondary {
+  color: #1f1f1f;
+}
+
+.level-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.level-slot {
+  display: grid;
+  gap: 8px;
+}
+
+.level-slot.is-invalid {
+  border: 1px solid #ff4d4f;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fff1f0;
+}
+
+.level-slot.is-duplicate {
+  border: 1px solid #faad14;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fffbe6;
+}
