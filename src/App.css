@@ -123,7 +123,11 @@
 
 .memetics-toolbar {
   display: grid;
-  grid-template-columns: minmax(200px, 1fr) minmax(200px, 260px) minmax(200px, 260px);
+  grid-template-columns:
+    minmax(200px, 1fr)
+    minmax(200px, 240px)
+    minmax(200px, 240px)
+    minmax(200px, 240px);
   gap: 12px;
   align-items: end;
 }
@@ -461,4 +465,14 @@ body[data-theme='dark'] .perk-tooltip-overlay .ant-tooltip-inner {
 
 body[data-theme='dark'] .perk-tooltip-overlay .ant-tooltip-arrow::before {
   background: var(--ant-color-bg-elevated);
+}
+
+body[data-theme='light'] .perk-tooltip-overlay .ant-tooltip-container,
+body[data-theme='light'] .perk-tooltip-overlay .ant-tooltip-inner {
+  background: var(--ant-color-bg-container);
+  color: var(--ant-color-text);
+}
+
+body[data-theme='light'] .perk-tooltip-overlay .ant-tooltip-arrow::before {
+  background: var(--ant-color-bg-container);
 }

@@ -30,6 +30,8 @@
 ## UI notes
 - Perk cards show selected perk or “Empty”; clicking opens the selection modal.
 - Duplicate or invalid selections are styled (yellow/red).
+- Optional slot status: HOLD or REPLACE.
+- For REPLACE slots, a wish perk can be stored as the desired replacement.
 - Character counter shows `Characters: X / 10`.
 
 ## Persistence

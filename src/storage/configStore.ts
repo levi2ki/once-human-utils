@@ -1,11 +1,18 @@
-import type { Config, TechList, TierGroup } from '../types'
+import type { Config, TechList, TechSlot, TechSlotStatus, TierGroup } from '../types'
 
 const STORAGE_KEY = 'once-human-configs-v1'
 
-const emptyTiers = (): Record<TierGroup, Record<number, string | null>> => ({
-  tier1: { 5: null, 10: null, 15: null },
-  tier2: { 20: null, 25: null, 30: null, 35: null },
-  tier3: { 40: null, 45: null, 50: null },
+const createEmptySlot = (): TechSlot => ({ perkId: null, status: null, wishId: null })
+
+const emptyTiers = (): Record<TierGroup, Record<number, TechSlot>> => ({
+  tier1: { 5: createEmptySlot(), 10: createEmptySlot(), 15: createEmptySlot() },
+  tier2: {
+    20: createEmptySlot(),
+    25: createEmptySlot(),
+    30: createEmptySlot(),
+    35: createEmptySlot(),
+  },
+  tier3: { 40: createEmptySlot(), 45: createEmptySlot(), 50: createEmptySlot() },
 })
 
 const createId = () =>
@@ -26,9 +33,41 @@ export const createTechList = (name: string): TechList => ({
   tiers: emptyTiers(),
 })
 
+const normalizeSlot = (value: unknown): TechSlot => {
+  if (typeof value === 'string') {
+    return { perkId: value, status: null, wishId: null }
+  }
+  if (!value || typeof value !== 'object') {
+    return createEmptySlot()
+  }
+  const slot = value as Partial<TechSlot>
+  const status =
+    slot.status === 'HOLD' || slot.status === 'REPLACE' ? slot.status : null
+  return {
+    perkId: slot.perkId ?? null,
+    status: status as TechSlotStatus | null,
+    wishId: slot.wishId ?? null,
+  }
+}
+
+const normalizeTierSlots = (
+  source: Record<number, unknown> | undefined,
+  base: Record<number, TechSlot>,
+): Record<number, TechSlot> => {
+  const next: Record<number, TechSlot> = { ...base }
+  Object.keys(base).forEach((level) => {
+    const key = Number(level)
+    next[key] = normalizeSlot(source?.[key])
+  })
+  return next
+}
+
 const normalizeTiers = (
-  tiers: Record<TierGroup, Record<number, string | null>> | Record<TierGroup, string[]> | undefined,
-): Record<TierGroup, Record<number, string | null>> => {
+  tiers:
+    | Record<TierGroup, Record<number, TechSlot | string | null>>
+    | Record<TierGroup, string[]>
+    | undefined,
+): Record<TierGroup, Record<number, TechSlot>> => {
   const base = emptyTiers()
   if (!tiers) {
     return base
@@ -36,11 +75,11 @@ const normalizeTiers = (
   if (Array.isArray((tiers as Record<TierGroup, string[]>).tier1)) {
     return base
   }
-  const typed = tiers as Record<TierGroup, Record<number, string | null>>
+  const typed = tiers as Record<TierGroup, Record<number, TechSlot | string | null>>
   return {
-    tier1: { ...base.tier1, ...typed.tier1 },
-    tier2: { ...base.tier2, ...typed.tier2 },
-    tier3: { ...base.tier3, ...typed.tier3 },
+    tier1: normalizeTierSlots(typed.tier1, base.tier1),
+    tier2: normalizeTierSlots(typed.tier2, base.tier2),
+    tier3: normalizeTierSlots(typed.tier3, base.tier3),
   }
 }
 

@@ -1,5 +1,7 @@
 export type TierGroup = 'tier1' | 'tier2' | 'tier3'
 
+export type MemeticRating = 'SS' | 'S' | 'A' | 'B' | 'C'
+
 export type Memetic = {
   id: string
   name: string
@@ -12,6 +14,7 @@ export type Memetic = {
   levels?: number[]
   effectTitle?: string
   scenarios?: string[]
+  rating?: MemeticRating
 }
 
 export type MemeticApiItem = {
@@ -29,6 +32,7 @@ export type MemeticApiItem = {
   tierGroup?: TierGroup
   icon?: string
   sourceUrl?: string
+  rating?: MemeticRating
 }
 
 export type MemeticsData = {
@@ -45,7 +49,7 @@ export type MemeticSourceItem = Memetic | MemeticApiItem
 export type TechList = {
   id: string
   name: string
-  tiers: Record<TierGroup, Record<number, string | null>>
+  tiers: Record<TierGroup, Record<number, TechSlot>>
 }
 
 export type Config = {
@@ -53,6 +57,14 @@ export type Config = {
   name: string
   scenario: string | null
   lists: TechList[]
+}
+
+export type TechSlotStatus = 'HOLD' | 'REPLACE'
+
+export type TechSlot = {
+  perkId: string | null
+  status: TechSlotStatus | null
+  wishId: string | null
 }
 
 export type Plant = {

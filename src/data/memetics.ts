@@ -1,5 +1,6 @@
 import rawData from './memetics.json'
 import type { Memetic, MemeticApiItem, MemeticsData, TierGroup } from '../types'
+import { memeticRatings } from './memeticsRatings'
 
 const data = rawData as MemeticsData
 
@@ -37,6 +38,7 @@ export const memetics: Memetic[] = data.memetics.map((item) => {
       levels: apiItem.levels,
       effectTitle: apiItem.effect_title,
       scenarios: apiItem.scenarios,
+      rating: memeticRatings[id] ?? apiItem.rating,
     }
   }
 

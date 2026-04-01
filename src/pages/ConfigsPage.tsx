@@ -16,7 +16,7 @@ import {
 import { DeleteOutlined, PlusOutlined, EditOutlined } from '@ant-design/icons'
 import { memetics, tierLabels } from '../data/memetics'
 import { scenarioOptions } from '../data/scenarios'
-import type { Config, Memetic, TierGroup } from '../types'
+import type { Config, Memetic, TechSlot, TechSlotStatus, TierGroup } from '../types'
 import { createConfig, createTechList, loadConfigs, saveConfigs } from '../storage/configStore'
 import { normalizeScenario } from '../utils/scenarioAliases'
 import { PageLayout } from '../components/PageLayout'
@@ -51,6 +51,8 @@ export const ConfigsPage = () => {
     level: number
   } | null>(null)
   const [editPerkId, setEditPerkId] = useState<string | null>(null)
+  const [editStatus, setEditStatus] = useState<TechSlotStatus | null>(null)
+  const [editWishId, setEditWishId] = useState<string | null>(null)
 
   const config = configs.find((item) => item.id === activeConfigId) ?? null
 
@@ -108,7 +110,7 @@ export const ConfigsPage = () => {
       const picked = new Set<string>()
       tierOrder.forEach((tier) => {
         levelSlots[tier].forEach((level) => {
-          const value = list.tiers[tier][level]
+          const value = list.tiers[tier][level]?.perkId
           if (value) {
             picked.add(value)
           }
@@ -125,7 +127,7 @@ export const ConfigsPage = () => {
     config.lists.forEach((list) => {
       tierOrder.forEach((tier) => {
         levelSlots[tier].forEach((level) => {
-          const value = list.tiers[tier][level]
+          const value = list.tiers[tier][level]?.perkId
           if (value) {
             counts.set(value, (counts.get(value) ?? 0) + 1)
           }
@@ -176,6 +178,30 @@ export const ConfigsPage = () => {
     }
 
     return decoratedGroups
+  }
+
+  const getWishOptionsForSlot = (currentId: string | null, tier: TierGroup) => {
+    const groups = tierOptions[tier]
+    const hasCurrent = currentId
+      ? groups.some((group) => group.options.some((option) => option.value === currentId))
+      : false
+
+    if (currentId && !hasCurrent) {
+      return [
+        {
+          label: 'Selected',
+          options: [
+            {
+              label: memeticMap.get(currentId)?.name ?? 'Selected',
+              value: currentId,
+            },
+          ],
+        },
+        ...groups,
+      ]
+    }
+
+    return groups
   }
 
   const updateConfigs = (next: Config[]) => {
@@ -253,20 +279,31 @@ export const ConfigsPage = () => {
     listId: string,
     tier: TierGroup,
     level: number,
-    perkId: string | null,
+    slot: TechSlot,
   ) => {
     setEditSlot({ listId, tier, level })
-    setEditPerkId(perkId)
+    setEditPerkId(slot.perkId ?? null)
+    setEditStatus(slot.status ?? null)
+    setEditWishId(slot.wishId ?? null)
   }
 
   const closeEditSlot = () => {
     setEditSlot(null)
     setEditPerkId(null)
+    setEditStatus(null)
+    setEditWishId(null)
   }
 
   const submitEditSlot = () => {
     if (!editSlot) return
-    handleSetPerk(editSlot.listId, editSlot.tier, editSlot.level, editPerkId)
+    const perkId = editPerkId ?? null
+    const status = perkId ? editStatus : null
+    const wishId = status === 'REPLACE' ? editWishId ?? null : null
+    handleUpdateSlot(editSlot.listId, editSlot.tier, editSlot.level, {
+      perkId,
+      status,
+      wishId,
+    })
     closeEditSlot()
   }
 
@@ -303,24 +340,30 @@ export const ConfigsPage = () => {
     updateConfigs(next)
   }
 
-  const handleSetPerk = (
+  const handleUpdateSlot = (
     listId: string,
     tier: TierGroup,
     level: number,
-    perkId: string | null,
+    updates: Partial<TechSlot>,
   ) => {
     if (!config) return
     const nextConfig = {
       ...config,
       lists: config.lists.map((list) => {
         if (list.id !== listId) return list
+        const currentSlot = list.tiers[tier][level]
+        const nextSlot: TechSlot = {
+          perkId: 'perkId' in updates ? updates.perkId ?? null : currentSlot.perkId,
+          status: 'status' in updates ? updates.status ?? null : currentSlot.status,
+          wishId: 'wishId' in updates ? updates.wishId ?? null : currentSlot.wishId,
+        }
         return {
           ...list,
           tiers: {
             ...list.tiers,
             [tier]: {
               ...list.tiers[tier],
-              [level]: perkId,
+              [level]: nextSlot,
             },
           },
         }
@@ -402,7 +445,9 @@ export const ConfigsPage = () => {
                   const target = configs.find((item) => item.id === targetKey)
                   const hasPickedPerk = target?.lists.some((list) =>
                     tierOrder.some((tier) =>
-                      levelSlots[tier].some((level) => list.tiers[tier][level]),
+                      levelSlots[tier].some(
+                        (level) => list.tiers[tier][level]?.perkId,
+                      ),
                     ),
                   )
                   const hasExtraData =
@@ -514,7 +559,9 @@ export const ConfigsPage = () => {
                             icon={<DeleteOutlined />}
                             onClick={() => {
                               const hasPickedPerk = tierOrder.some((tier) =>
-                                levelSlots[tier].some((level) => list.tiers[tier][level]),
+                                levelSlots[tier].some(
+                                  (level) => list.tiers[tier][level]?.perkId,
+                                ),
                               )
                               if (hasPickedPerk) {
                                 Modal.confirm({
@@ -540,8 +587,12 @@ export const ConfigsPage = () => {
                                 <Title level={5}>{tierLabels[tier]}</Title>
                                 <div className="level-grid">
                                   {levelSlots[tier].map((level) => {
-                                    const perkId = list.tiers[tier][level] ?? null
+                                    const slot = list.tiers[tier][level]
+                                    const perkId = slot.perkId ?? null
+                                    const perkStatus = slot.status ?? null
+                                    const wishId = slot.wishId ?? null
                                     const perk = perkId ? memeticMap.get(perkId) : null
+                                    const wishPerk = wishId ? memeticMap.get(wishId) : null
                                     const invalidSelection = perk ? !isPerkAllowed(perk) : false
                                     const isDuplicate = perkId
                                       ? duplicatePerks.has(perkId)
@@ -555,7 +606,7 @@ export const ConfigsPage = () => {
                                           align="center"
                                           className="perk-card"
                                           onClick={() =>
-                                            openEditSlot(list.id, tier, level, perkId)
+                                            openEditSlot(list.id, tier, level, slot)
                                           }
                                         >
                                           <div className="perk-card-header">
@@ -584,12 +635,34 @@ export const ConfigsPage = () => {
                                                   <Text type="secondary">
                                                     {perk.identity ?? perk.effectCategory}
                                                   </Text>
-                                                  {invalidSelection && (
-                                                    <Tag color="red">Not available</Tag>
-                                                  )}
-                                                  {isDuplicate && !invalidSelection && (
-                                                    <Tag color="gold">Duplicate</Tag>
-                                                  )}
+                                                  {perkStatus ||
+                                                  (perkStatus === 'REPLACE' && wishPerk) ||
+                                                  invalidSelection ||
+                                                  isDuplicate ? (
+                                                    <Space
+                                                      wrap
+                                                      size={4}
+                                                      className="perk-slot-tags"
+                                                    >
+                                                      {perkStatus === 'HOLD' && (
+                                                        <Tag color="green">HOLD</Tag>
+                                                      )}
+                                                      {perkStatus === 'REPLACE' && (
+                                                        <Tag color="volcano">REPLACE</Tag>
+                                                      )}
+                                                      {perkStatus === 'REPLACE' && wishPerk ? (
+                                                        <Tag color="purple">
+                                                          WISH: {wishPerk.name}
+                                                        </Tag>
+                                                      ) : null}
+                                                      {invalidSelection && (
+                                                        <Tag color="red">Not available</Tag>
+                                                      )}
+                                                      {isDuplicate && !invalidSelection && (
+                                                        <Tag color="gold">Duplicate</Tag>
+                                                      )}
+                                                    </Space>
+                                                  ) : null}
                                                 </Space>
                                               </Space>
                                             </Tooltip>
@@ -664,7 +737,14 @@ export const ConfigsPage = () => {
               placeholder="Select perk"
               options={getOptionsForSlot(editPerkId, editSlot.tier, editSlot.listId)}
               value={editPerkId ?? undefined}
-              onChange={(value) => setEditPerkId(value ?? null)}
+              onChange={(value) => {
+                const nextValue = value ?? null
+                setEditPerkId(nextValue)
+                if (!nextValue) {
+                  setEditStatus(null)
+                  setEditWishId(null)
+                }
+              }}
               optionRender={(option) =>
                 renderPerkOption({ value: option.value, label: option.label })
               }
@@ -675,6 +755,48 @@ export const ConfigsPage = () => {
                   .includes(input.toLowerCase())
               }
             />
+            <Space direction="vertical" size={4} className="stretch">
+              <Text type="secondary">Status</Text>
+              <Select
+                allowClear
+                placeholder="HOLD or REPLACE"
+                options={[
+                  { label: 'HOLD', value: 'HOLD' },
+                  { label: 'REPLACE', value: 'REPLACE' },
+                ]}
+                value={editStatus ?? undefined}
+                onChange={(value) => {
+                  const nextValue = (value as TechSlotStatus) ?? null
+                  setEditStatus(nextValue)
+                  if (nextValue !== 'REPLACE') {
+                    setEditWishId(null)
+                  }
+                }}
+                disabled={!editPerkId}
+              />
+            </Space>
+            {editStatus === 'REPLACE' ? (
+              <Space direction="vertical" size={4} className="stretch">
+                <Text type="secondary">Wish (replacement)</Text>
+                <Select
+                  showSearch
+                  allowClear
+                  placeholder="Select wish perk"
+                  options={getWishOptionsForSlot(editWishId, editSlot.tier)}
+                  value={editWishId ?? undefined}
+                  onChange={(value) => setEditWishId(value ?? null)}
+                  optionRender={(option) =>
+                    renderPerkOption({ value: option.value, label: option.label })
+                  }
+                  filterOption={(input, option) =>
+                    (option?.label ?? '')
+                      .toString()
+                      .toLowerCase()
+                      .includes(input.toLowerCase())
+                  }
+                />
+              </Space>
+            ) : null}
             {editPerkId ? (
               <div className="perk-preview">
                 {renderTooltip(memeticMap.get(editPerkId) as Memetic)}

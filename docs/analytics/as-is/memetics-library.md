@@ -16,6 +16,7 @@
 
 ## UI behavior
 - Grid of cards with icon, name, effect title, short description, and tags.
+- Optional rating tag per perk (SS/S/A/B/C) when available.
 - Long tags wrap inside the card.
 - Long names wrap in the card title (no truncation).
 

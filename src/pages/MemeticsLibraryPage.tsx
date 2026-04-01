@@ -2,7 +2,7 @@ import { Avatar, Card, Input, Select, Space, Tag, Typography } from 'antd'
 import { useMemo, useState } from 'react'
 import { memetics, tierLabels } from '../data/memetics'
 import { scenarioOptions } from '../data/scenarios'
-import type { TierGroup } from '../types'
+import type { MemeticRating, TierGroup } from '../types'
 import { normalizeScenario } from '../utils/scenarioAliases'
 import { PageLayout } from '../components/PageLayout'
 
@@ -13,12 +13,32 @@ const tierOptions = (Object.keys(tierLabels) as TierGroup[]).map((tier) => ({
   value: tier,
 }))
 
+const ratingColors: Record<MemeticRating, string> = {
+  SS: 'magenta',
+  S: 'volcano',
+  A: 'gold',
+  B: 'blue',
+  C: 'default',
+}
+
 export const MemeticsLibraryPage = () => {
   const [search, setSearch] = useState('')
   const [scenario, setScenario] = useState<string | null>(null)
   const [tiers, setTiers] = useState<TierGroup[]>([])
+  const [effectCategory, setEffectCategory] = useState<string | null>(null)
 
   const effectiveScenario = useMemo(() => normalizeScenario(scenario), [scenario])
+  const effectCategoryOptions = useMemo(() => {
+    const categories = new Set<string>()
+    memetics.forEach((memetic) => {
+      if (memetic.effectCategory) {
+        categories.add(memetic.effectCategory)
+      }
+    })
+    return Array.from(categories)
+      .sort((a, b) => a.localeCompare(b))
+      .map((category) => ({ label: category, value: category }))
+  }, [])
 
   const filtered = useMemo(() => {
     const term = search.trim().toLowerCase()
@@ -32,9 +52,12 @@ export const MemeticsLibraryPage = () => {
       if (tiers.length && !tiers.includes(memetic.tierGroup)) {
         return false
       }
+      if (effectCategory && memetic.effectCategory !== effectCategory) {
+        return false
+      }
       return true
     })
-  }, [search, effectiveScenario, tiers])
+  }, [search, effectiveScenario, tiers, effectCategory])
 
   return (
     <PageLayout
@@ -66,6 +89,13 @@ export const MemeticsLibraryPage = () => {
             value={tiers}
             onChange={(value) => setTiers(value as TierGroup[])}
           />
+          <Select
+            placeholder="Effect category"
+            allowClear
+            options={effectCategoryOptions}
+            value={effectCategory ?? undefined}
+            onChange={(value) => setEffectCategory(value ?? null)}
+          />
         </div>
         <div className="memetics-grid">
           {filtered.map((memetic) => (
@@ -83,11 +113,14 @@ export const MemeticsLibraryPage = () => {
               }
             >
               {memetic.effectTitle ? <Text strong>{memetic.effectTitle}</Text> : null}
-              <Paragraph type="secondary" ellipsis={{ rows: 3 }}>
+              <Paragraph type="secondary">
                 {memetic.description}
               </Paragraph>
               <Space wrap className="memetic-tags">
                 <Tag color="blue">{tierLabels[memetic.tierGroup]}</Tag>
+                {memetic.rating ? (
+                  <Tag color={ratingColors[memetic.rating]}>{memetic.rating}</Tag>
+                ) : null}
                 {memetic.effectCategory ? (
                   <Tag color="gold">{memetic.effectCategory}</Tag>
                 ) : null}
